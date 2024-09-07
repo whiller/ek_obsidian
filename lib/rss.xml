@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Secondary]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Secondary</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 07 Sep 2024 10:16:12 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 07 Sep 2024 10:16:00 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Подсветить пункт меню]]></title><description><![CDATA[ 
+ <br>Добавить ссылку на страницу в нужный раздел в файле меню<br><img alt="Untitled 20.png" src="lib\media\untitled-20.png">]]></description><link>bitrix24\скрипты\подсветить-пункт-меню\подсветить-пункт-меню.html</link><guid isPermaLink="false">Bitrix24/Скрипты/Подсветить пункт меню/Подсветить пункт меню.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-20.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-20.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Прямые ссылки в меню]]></title><description><![CDATA[ 
+ <br><img alt="image_(6).png" src="lib\media\image_(6).png">]]></description><link>bitrix24\скрипты\прямые-ссылки-в-меню\прямые-ссылки-в-меню.html</link><guid isPermaLink="false">Bitrix24/Скрипты/Прямые ссылки в меню/Прямые ссылки в меню.md</guid><pubDate>Thu, 18 Jan 2024 10:00:00 GMT</pubDate><enclosure url="lib\media\image_(6).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\image_(6).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Редирект]]></title><description><![CDATA[ 
+ <br>Со страницы на страницу<br>LocalRedirect('/enterprise/crm/', true, '301 Moved Permanently');
+Копировать<br><img alt="1324.png" src="lib\media\1324.png">]]></description><link>bitrix24\скрипты\редирект\редирект.html</link><guid isPermaLink="false">Bitrix24/Скрипты/Редирект/Редирект.md</guid><pubDate>Sat, 03 Jun 2023 13:07:00 GMT</pubDate><enclosure url="lib\media\1324.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\1324.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Скрыть пункт меню]]></title><description><![CDATA[ 
+ <br><img alt="1463 2.png" src="lib\media\1463-2.png">]]></description><link>bitrix24\скрипты\скрыть-пункт-меню\скрыть-пункт-меню.html</link><guid isPermaLink="false">Bitrix24/Скрипты/Скрыть пункт меню/Скрыть пункт меню.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\1463-2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\1463-2.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Закрыть от индексации]]></title><description><![CDATA[ 
+ <br>$APPLICATION-&gt;SetPageProperty("robots", "noindex");]]></description><link>bitrix24\скрипты\закрыть-от-индексации.html</link><guid isPermaLink="false">Bitrix24/Скрипты/Закрыть от индексации.md</guid><pubDate>Wed, 17 Apr 2024 10:11:00 GMT</pubDate></item><item><title><![CDATA[Микроразметка FAQ в журнале]]></title><description><![CDATA[ 
+ <br>Микроразметка необходима для корректного отображения блока в поисковой выдачи. Среди возможных вариантов рекомендуеться исполтзовать тип разметки json-ld.<br>Для работы нужно использовать этот шаблон:<br>&lt;script type="application/ld+json"&gt;
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Каким компаниям подходит автоворонка продаж?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Практически любому бизнесу B2B и B2C. Особенно если у него много клиентов или сложный процесс продажи. Например, в сфере информационных продуктов — онлайн-курсы и сервисы; здравоохранения — телемедицина, медицинские центры и лаборатории; туризм — гостиницы, базы отдыха и турагентства. Автоворонки также подходят для розницы, где возможны повторные и комплексные продажи — магазины, супермаркеты, интернет-магазины."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Чем автоворонка лучше обычной воронки продаж?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Преимущества автоворонки: выполняет задачи автоматически, освобождая работников от монотонной и рутинной работы; меньше затраты на зарплату менеджеров; обрабатывает заявки круглосуточно; более точно выявляет потребности аудитории и на их основе создает персонализированные предложения."
+        }
+      }, {
+        "@type": "Question",
+        "name": "От чего зависит эффективность автоворонки?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "От множества факторов. Например, качества трафика, оффера, качества самой автоворонки, оптимизации под мобильные устройства, контента, слаженности работы между сайтом и CRM."
+        }
+      }]
+    }
+    &lt;/script&gt;
+Копировать<br>В массиве json в ключе лучше не использовать кавычки. потому что тогда Google может не понять происходящее. Для корректной работы ссылок внутри ключей лучше использовать одинарные кавычки.<br>“text”: “Компания ‘Электрон’ выпустила новый релиз”;
+Копировать<br>Для проверки корректности можно использовать интерфейс Google <a rel="noopener" class="external-link" href="https://search.google.com/test/rich-results?hl=ru" target="_blank">https://search.google.com/test/rich-results?hl=ru</a><br>Important
+Интерфейс Google может не показывать размеченные области, несмотря на то, что код присутствует на сайте. Это происходит из-за того, что запрашиваемая страница еще не была проиндексирвоана. Чтобы базово проверить коррнетность микроразметки нужно использовать вкладку “Код”
+]]></description><link>bitrix24\скрипты\микроразметка-faq-в-журнале.html</link><guid isPermaLink="false">Bitrix24/Скрипты/Микроразметка FAQ в журнале.md</guid><pubDate>Sat, 03 Jun 2023 12:31:00 GMT</pubDate></item><item><title><![CDATA[Пресет на странице]]></title><description><![CDATA[ 
+ <br>define('B24_TYPE', 'crm');]]></description><link>bitrix24\скрипты\пресет-на-странице.html</link><guid isPermaLink="false">Bitrix24/Скрипты/Пресет на странице.md</guid><pubDate>Fri, 24 May 2024 09:03:00 GMT</pubDate></item><item><title><![CDATA[Тултипы]]></title><description><![CDATA[ 
+ <br>Для добавления тултипа необходимо сначала добавить скрипт в начало исходного кода всей страницы.<br>&lt;?php
+$APPLICATION-&gt;IncludeFile(    \SB\B24Manager\Template::getBitrix2017TemplatePath().'/include_areas/types/bitrix24/pages/tooltip_icon.php',
+['MESSAGE' =&gt; 'Текст tooltip. Текст tooltip. Текст tooltip. Текст tooltip.'],
+)
+?&gt;
+Копировать<br>Затем в сам код страницы добавить элемент с таким-то классом.]]></description><link>bitrix24\скрипты\тултипы.html</link><guid isPermaLink="false">Bitrix24/Скрипты/Тултипы.md</guid><pubDate>Sat, 03 Jun 2023 13:04:00 GMT</pubDate></item><item><title><![CDATA[Убран префикс]]></title><description><![CDATA[ 
+ <br>Для того-то был убран префикс. Использовать затем-то. Код вставить в самое начало исходного кода страницы.<br>define('USE_HEAD_TITLE_WITHOUT_PREFIX', true);
+Копировать]]></description><link>bitrix24\скрипты\убран-префикс.html</link><guid isPermaLink="false">Bitrix24/Скрипты/Убран префикс.md</guid><pubDate>Thu, 18 Jan 2024 10:00:00 GMT</pubDate></item><item><title><![CDATA[Абзац текста]]></title><description><![CDATA[ 
+ <br>&lt;p style="margin-bottom: 25px;"&gt;
+			Curabitur massa velit, sollicitudin vel diam sit amet, iaculis cursus diam. Ut posuere risus mauris, rhoncus
+			semper eros vulputate quis. Nullam orci diam, gravida at porta a, facilisis non enim. Interdum et malesuada
+			fames ac ante ipsum primis in faucibus. Fusce accumsan lacus quis lacus accumsan sagittis. In at mattis
+			neque. Integer fermentum tristique pulvinar. Morbi efficitur, tellus quis gravida efficitur, quam arcu
+			pellentesque nibh, et porttitor metus massa a libero.
+		&lt;/p&gt;
+Копировать<br>Это обычный абзац, который используется в большинстве случаев.<br><img alt="Untitled 2.png" src="lib\media\untitled-2.png"><br>
+<br>У каждого абзаца задан нижний отступ в 25px через &lt;p style="margin-bottom: 25px;"&gt;
+]]></description><link>bitrix24\список-блоков-для-статей\абзац-текста\абзац-текста.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Абзац текста/Абзац текста.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-2.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Аккордеон]]></title><description><![CDATA[ 
+ <br>Раскрывающаяся штука. Код такой:<br>&lt;div class="bx-ui-accordion" data-bx-ui-accordion=""&gt;
+
+    &lt;div id="subtitle1" class="bx-ui-accordion__item" data-bx-ui-accordion-item=""&gt;
+        &lt;div class="bx-ui-accordion__header" data-bx-ui-accordion-clicker=""&gt;
+			&lt;h5&gt;Как автоматизировать таблицы Гугл в качестве CRM?&lt;/h5&gt;
+        &lt;/div&gt;
+        &lt;div class="bx-ui-accordion__content" data-bx-ui-accordion-content=""&gt;
+            &lt;div class="bx-ui-accordion__inner"&gt;
+				 &lt;p&gt;Плагины и макросы снижают объем рутинной работы по заполнению, ведению и анализу таблиц.&lt;/p&gt;
+ 			&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div id="subtitle2" class="bx-ui-accordion__item" data-bx-ui-accordion-item=""&gt;
+        &lt;div class="bx-ui-accordion__header" data-bx-ui-accordion-clicker=""&gt;
+			&lt;h5&gt;Какие есть плюсы и минусы использования Гугл Таблиц в качестве CRM-системы?&lt;/h5&gt;
+        &lt;/div&gt;
+        &lt;div class="bx-ui-accordion__content" data-bx-ui-accordion-content=""&gt;
+            &lt;div class="bx-ui-accordion__inner"&gt;
+				 &lt;p&gt;Бесплатный сервис, большое количество плагинов, единовременные платежи за покупку сложных модулей для совершенствования автоматизации CRM в Google Sheets делают их привлекательными для малого или начинающего бизнеса. Однако из-за отсутствия разделения доступа к функционалу, высокой вероятности ошибок при вводе данных и утечки сведений о клиентах, многие предпочитают работать с проверенными CRM-системами.&lt;/p&gt;
+ 			&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+Копировать<br><br><img alt="Untitled 6.png" src="lib\media\untitled-6.png"><br><br>
+<br>Обязательно нужны data параметры для функционирования аккордеона.
+<br>Текст меняется в нужном месте в коде
+<br><br>Что такое автоворонки и как они работают?  
+Узнайте, что такое автоворонки и как они помогают автоматизировать процесс продаж.<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/chto-takoe-avtovoronki-i-kak-oni-rabotayut/" target="_blank">https://www.bitrix24.ru/journal/chto-takoe-avtovoronki-i-kak-oni-rabotayut/</a>
+]]></description><link>bitrix24\список-блоков-для-статей\аккордеон\аккордеон.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Аккордеон/Аккордеон.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-6.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-6.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Анимированный блок]]></title><description><![CDATA[ 
+ <br>Это анимированный блок с кнопкой регистрации. Хорошо смотрится в конце статьи. Для вставки используется следующий код:<br>&lt;div class="bx-ui-background-gradient-blue"
+			style="border-radius: 10px; color: \#fff; padding: 60px 20px; margin: 25px 0;"&gt;
+			&lt;h2 class="partners-header-banner__title" style="text-align: center; margin: 1rem 0 1rem;"&gt;Битрикс24 — это не только продажи
+			&lt;/h2&gt;
+
+			&lt;div class=" bxst-section bxst-section-position"&gt;
+				&lt;div class="bxst-features-section reverse bxst-features-section-bg-4"&gt;
+					&lt;div class="bxst-features-section-inner"&gt;
+						&lt;div class="bxst-features-section-content"&gt;
+							&lt;p style="color: \#fff;"&gt;
+								Это набор инструментов для организации работы всей компании. Вместо десятка дорогих
+								сервисов и приложений — один Битрикс24.
+							&lt;/p&gt;
+							&lt;div class="bxst-features-section-content-button"&gt;
+								&lt;a class="bx-ui-button bx-ui-button_success_dark bx-ui-button_lg"
+									href="https://www.bitrix24.ru/create.php"&gt;Cоздать бесплатно&lt;/a&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="bxst-features-section-media"&gt;
+							&lt;div class="bxst-features-section-media-outer"&gt;
+								&lt;div class="bxst-features-section-media-inner"&gt;
+									&lt;img src="/images/content_ru/svg/all.svg" loading="lazy" alt="" title=""
+										class="bxst-features-section-media-image"&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;/div&gt;
+Копировать<br><br><img alt="Untitled 7.png" src="lib\media\untitled-7.png"><br>]]></description><link>bitrix24\список-блоков-для-статей\анимированный-блок\анимированный-блок.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Анимированный блок/Анимированный блок.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-7.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-7.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Блок с текстом и кнопкой регистрации]]></title><description><![CDATA[ 
+ <br>Это особый блок, который призывает пользователя подписаться. Для вставки используется следующий код:<br>&lt;div style="background: linear-gradient(135deg, \#2fc7f7 0%, \#409eef 100%); color: \#fff; padding: 60px; margin: 25px 0; border-radius: 10px; text-align: center;"&gt;
+			&lt;h2 class="partners-header-banner__title" style="text-align: center; margin: 1rem 0 1rem;"&gt;Попробуйте CRM Битрикс24&lt;/h2&gt;
+			&lt;p style=" margin-bottom: 25px;"&gt;
+				CRM возьмет под контроль все каналы коммуникаций с клиентами и автоматизирует продажи в вашем
+				бизнесе.
+				&lt;/p&gt;
+				&lt;a class="bx-ui-button bx-ui-button_success_dark bx-ui-button_lg"
+					href="https://www.bitrix24.ru/create.php?b24_type=crm"&gt;Cоздать бесплатно&lt;/a&gt;
+		&lt;/div&gt;
+Копировать<br><br><img alt="Untitled 10.png" src="lib\media\untitled-10.png"><br><br>
+<br>Все основные стили блока лежат в стилях дива &lt;div style="background: linear-gradient(135deg, \#2fc7f7 0%, \#409eef 100%); color: \#fff; padding: 60px; margin: 25px 0; border-radius: 10px; text-align: center;"&gt;
+<br>Текст заголовка задается в 
+<br>Основной текст в  форматируется автоматически, задавать отдельные стили не нужно.
+<br>Ссылка и заголовок кнопки задается в <a target="_blank" rel="noopener"></a><a target="_blank" rel="noopener">
+</a>]]></description><link>bitrix24\список-блоков-для-статей\блок-с-текстом-и-кнопкой-регистрации\блок-с-текстом-и-кнопкой-регистрации.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Блок с текстом и кнопкой регистрации/Блок с текстом и кнопкой регистрации.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-10.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-10.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Блок с формулой]]></title><description><![CDATA[ 
+ <br>Раскрывающаяся штука. Код такой:<br>&lt;div class="formula-parent"&gt;
+                        &lt;div class="formula-child"&gt;
+   &lt;p style="margin-bottom: 5px; margin-top: 5px;"&gt;
+&lt;b&gt;KPI = ((факт − база) / (норма − база)) *&amp;nbsp100%&lt;/b&gt; &lt;br&gt;
+Где база — минимально допустимая эффективность сотрудника, факт — реальная, а норма — средняя.
+&lt;/p&gt;
+  &lt;/div&gt;&lt;/div&gt;&lt;br&gt;
+Копировать<br>.formula-parent {
+display: flex;
+justify-content: center;
+}
+
+.formula-child {
+background-color: \#EEF5FB; 
+padding: 30px; 
+border-radius: 20px; 
+text-align: center; 
+display: inline-block; 
+margin-left: auto; 
+margin-right: auto;
+}
+Копировать<br><br><img alt="819.png" src="lib\media\819.png"><br><br>
+<br>Обязательно нужны стили.
+<br><br>Что такое каналы продаж: какие они бывают, как выбрать и управлять каналами сбыта  
+Каналы продаж: что это такое и какие виды бывают.<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/chto-takoe-kanaly-prodazh-kakie-oni-byvayut-kak-vybrat-i-upravlyat-kanalami-sbyta/#section15" target="_blank">https://www.bitrix24.ru/journal/chto-takoe-kanaly-prodazh-kakie-oni-byvayut-kak-vybrat-i-upravlyat-kanalami-sbyta/#section15</a>
+]]></description><link>bitrix24\список-блоков-для-статей\блок-с-формулой\блок-с-формулой.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Блок с формулой/Блок с формулой.md</guid><pubDate>Sat, 07 Sep 2024 08:28:55 GMT</pubDate><enclosure url="lib\media\819.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\819.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Блок со сплошной заливкой]]></title><description><![CDATA[ 
+ <br>Такой блок используется для разных важеных мыслей. Для вставки используется следующий код.<br>&lt;div style="background: linear-gradient(135deg, \#2fc7f7 0%, \#409eef 100%); color: \#fff; padding: 30px 30px 20px; border-radius: 10px;"&gt;
+			&lt;h4 style="margin: 1.2em 0px;"&gt;Текст в рамке со сплошной заливкой&lt;/h4&gt;
+			&lt;p style="margin-bottom: 25px;"&gt;
+				Class aptent taciti sociosqu ad litora torquent per conubia
+					nostra, per inceptos himenaeos.
+			&lt;/p&gt;
+		&lt;/div&gt;
+Копировать<br><br><img alt="Untitled 14.png" src="lib\media\untitled-14.png"><br><br>
+<br>Основные стили задаются в самом диве &lt;div style="background: linear-gradient(135deg, \#2fc7f7 0%, \#409eef 100%); color: \#fff; padding: 30px 30px 20px; border-radius: 10px;"&gt;
+<br>Внутри дива может быть любой контент. Текстовые стили форматируются автоматически.
+]]></description><link>bitrix24\список-блоков-для-статей\блок-со-сплошной-заливкой\блок-со-сплошной-заливкой.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Блок со сплошной заливкой/Блок со сплошной заливкой.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-14.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-14.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Встроенное видео]]></title><description><![CDATA[ 
+ <br>.hidden-desktop {
+    display: none;
+  }
+
+.hidden-mobile {
+    display: none;
+  }
+
+@media (max-width: 767px) {
+    .hidden-desktop {
+      display: block;
+    }
+
+    .hidden-desktop iframe {
+      width: 375px;
+			height: 211px;
+    }
+
+    .hidden-mobile {
+      display: none;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .hidden-desktop {
+      display: none;
+    }
+
+    .hidden-mobile {
+      display: block;
+    }
+
+    .hidden-mobile iframe {
+      width: 853px;
+      height: 480px;
+    }
+  }
+Копировать<br>&lt;p style="text-align: center;" class="hidden-desktop"&gt;
+    &lt;iframe width="375" height="211" src="https://www.youtube.com/embed/y_zR0mnl4hM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" title="История одного бизнеса. Битрикс24&amp;amp;Setters | «‎Нам нравится делать по-другому»"&gt;&lt;/iframe&gt;
+  &lt;/p&gt;
+&lt;p style="text-align: center;" class="hidden-mobile"&gt;
+    &lt;iframe width="853" height="480" src="https://www.youtube.com/embed/y_zR0mnl4hM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" title="История одного бизнеса. Битрикс24&amp;amp;Setters | «‎Нам нравится делать по-другому»"&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+Копировать<br>Все встроенные видео в журнал добавляются два раза для корректного отображения на телефонах и десктопных устройствах. В код такой статьи необходимо добавить CSS медиа запросы для регулировки отображения видео и два блока рядом с самим видео.<br>На десткопной версии сайта блок будет выглядеть так:<br><img alt="Untitled 16.png" src="lib\media\untitled-16.png"><br>А так - на мобильной<br><img alt="Untitled 1.png" src="lib\media\untitled-1.png"><br>
+<br>Блок с классом hidden-desktop скрывается на устройствах, ширина которых больше или равно 768px
+<br>Блок с классом hidden-mobile скрывается на устройствах, ширина которых меньше или равно от 767px
+<br>Ссылка на видео лежит в src src="https://www.youtube.com/embed/y_zR0mnl4hM?feature=oembed"
+<br>Заголовок видео лежит в title="История одного бизнеса. Битрикс24&amp;amp;Setters | «‎Нам нравится делать по-другому»"
+<br>Размеры регулируются параметрами width="853" height="480"
+<br>CRM для рекламного агентства  
+CRM для рекламного агентства оптимизирует бизнес-процессы рекламного производства, сохраняя фокус на продажах, позволяет сделать их прозрачными и управляемыми.<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/crm-dlya-reklamnogo-agentstva/" target="_blank">https://www.bitrix24.ru/journal/crm-dlya-reklamnogo-agentstva/</a>
+]]></description><link>bitrix24\список-блоков-для-статей\встроенное-видео\встроенное-видео.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Встроенное видео/Встроенное видео.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-16.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-16.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Заголовки]]></title><description><![CDATA[ 
+ <br>&lt;h2 id="subtitle1" style="margin: 3rem 0 1.6rem;"&gt;Заголовок H2&lt;/h3&gt;
+&lt;h3 id="subtitle2" style="margin: 3rem 0 1.6rem;"&gt;Заголовок H3&lt;/h3&gt;
+&lt;h4 id="subtitle3" style="margin: 2em 0;"&gt;Заголовок H4&lt;/h4&gt;
+Копировать<br>Могут использоваться различные типы заголовков в зависимости от ТЗ и внешнего вида.<br><img alt="Untitled 15.png" src="lib\media\untitled-15.png"><br>
+<br>У каждого заголовка задан нижний отступ в 25px через &lt;p style="margin-bottom: 25px;"&gt;
+]]></description><link>bitrix24\список-блоков-для-статей\заголовки\заголовки.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Заголовки/Заголовки.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-15.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-15.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Зеленый маркированный список]]></title><description><![CDATA[ 
+ <br>&lt;ul class="bx-ui-list bx-ui-list_green"&gt;
+			&lt;li&gt;Quisque non orci sed mauris lacinia elementum.&lt;/li&gt;
+			&lt;li&gt;Duis orci nisl, sagittis id accumsan in, molestie ac turpis.&lt;/li&gt;
+			&lt;li&gt;Quisque ac justo elit.&lt;/li&gt;
+			&lt;li&gt;Maecenas consectetur dolor eu lorem mattis tincidunt.&lt;/li&gt;
+			&lt;li&gt;Duis semper odio nec urna maximus, et egestas nulla molestie.&lt;/li&gt;
+		&lt;/ul&gt;
+Копировать<br>Дополнительный вид маркированных списков.<br><img alt="Untitled 11.png" src="lib\media\untitled-11.png"><br><br>
+<br>Список лежит в &lt;ol class="bx-ui-list bx-ui-list_primary"&gt;
+<br>Каждый элемент лежит в своем <br>
+]]></description><link>bitrix24\список-блоков-для-статей\зеленый-маркированный-список\зеленый-маркированный-список.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Зеленый маркированный список/Зеленый маркированный список.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-11.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-11.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Зеленый список с нумерацией]]></title><description><![CDATA[ 
+ <br>&lt;div class="col-12 mb-3"&gt;
+	&lt;ol class="bx-ui-list bx-ui-list_round-success"&gt;
+		&lt;li&gt;Fusce vehicula risus quis lectus luctus lacinia. Integer aliquet mi lectus, ac molestie nisllaoreet eu. Duis mattis eros nunc, ut pulvinar purus ultricies sit amet.&lt;/li&gt;
+		&lt;li&gt;In convallis urna vitae diam vulputate, at elementum libero gravida. Sed massa ipsum, rutrum aligula ac, faucibus finibus ipsum.&lt;/li&gt;
+		&lt;li&gt;Pellentesque velit ex, commodo ac ipsum id, consectetur tempus magna.&lt;/li&gt;
+		&lt;li&gt;Morbi sit amet turpis dolor.&lt;/li&gt;
+	&lt;/ol&gt;
+&lt;/div&gt;
+Копировать<br>Зеленый нумерованный список — это дополнительный вариант отображения списка действий. Основной вид - <a data-href="Синий список с нумерацией" href="bitrix24\список-блоков-для-статей\синий-список-с-нумерацией\синий-список-с-нумерацией.html" class="internal-link" target="_self" rel="noopener">Синий список с нумерацией</a>.<br><img alt="Untitled 8.png" src="lib\media\untitled-8.png"><br>
+<br>Весь маркированный список лежит в &lt;div class="col-12 mb-3"&gt;
+<br>Сам список дополнительно лежит в &lt;ol class="bx-ui-list bx-ui-list_round-success"&gt;
+]]></description><link>bitrix24\список-блоков-для-статей\зеленый-список-с-нумерацией\зеленый-список-с-нумерацией.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Зеленый список с нумерацией/Зеленый список с нумерацией.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-8.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-8.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Оглавление]]></title><description><![CDATA[ 
+ <br>&lt;div class="col-12 mb-3"&gt;
+	&lt;ol class="list-nav bx-ui-list_primary"&gt;
+		&lt;li&gt;&lt;a href="\#part1"&gt;Что такое чек-лист&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="\#part2"&gt;Для чего нужен чек-лист&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="\#part3"&gt;Отличия чек-листов&lt;/a&gt;
+			&lt;ul class="bx-ui-list bx-ui-list_primary"&gt;
+				&lt;li&gt;&lt;a href="\#subtitle1"&gt;От списка дел&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="\#subtitle2"&gt;От гайда&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="\#subtitle3"&gt;От пошаговой инструкции&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;li&gt;&lt;a href="\#part4"&gt;Типы чек-листов&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="\#part5"&gt;10 преимуществ использования чек-листов&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="\#part6"&gt;Как правильно составить чек-лист&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="\#part7"&gt;Что в итоге&lt;/a&gt;&lt;/li&gt;
+	&lt;/ol&gt;
+&lt;/div&gt;
+Копировать<br>Блок оглавления представляет собой базовый блок, который ставится в начале каждой статьи.<br><img alt="Untitled 12.png" src="lib\media\untitled-12.png"><br>
+<br>Весь блок навигации лежит в диве &lt;div class="col-12 mb-3"&gt;Контент&lt;/div&gt;
+<br>Сама навигация лежит внутри списка &lt;ol class="list-nav bx-ui-list_primary"&gt;Элементы&lt;/ol&gt;
+<br>Элемент навигации: &lt;li&gt;&lt;a href="\#part1"&gt;Что такое чек-лист&lt;/a&gt;&lt;/li&gt;
+<br>Если требуется сделать подзаголовки, то необходимо вставить ещё один набор элементов &lt;ul class="bx-ui-list bx-ui-list_primary"&gt;Элементы&lt;/ul&gt; между &lt;li&gt;&lt;/li&gt;
+<br>Все элементы - это псевдоссылки, ведущие на разные блоки со статьей. Для первого уровня используются ссылки вида \#part1, для второго - \#subtitle1. Необходимо не забывать прописывать эти псевдоссылки в id соответствующих блоков.
+<br>Работа с возражениями в продажах: примеры, скрипты и техники, чтобы закрывать возражения клиентов  
+Работа с возражениями в продажах: что это такое и зачем нужна.<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/rabota-s-vozrazheniyami-v-prodazhakh-primery-skripty-i-tekhniki-chtoby-zakryvat-vozrazheniya-kliento/" target="_blank">https://www.bitrix24.ru/journal/rabota-s-vozrazheniyami-v-prodazhakh-primery-skripty-i-tekhniki-chtoby-zakryvat-vozrazheniya-kliento/</a>  
+<br>Стили руководства в управлении: какие бывают и какой выбрать  
+Стили руководства: что это такое в управлении.<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/stili-rukovodstva-v-upravlenii-kakie-byvayut-i-kakoy-vybrat/" target="_blank">https://www.bitrix24.ru/journal/stili-rukovodstva-v-upravlenii-kakie-byvayut-i-kakoy-vybrat/</a>  
+<br>Что такое каналы продаж: какие они бывают, как выбрать и управлять каналами сбыта  
+Каналы продаж: что это такое и какие виды бывают.<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/chto-takoe-kanaly-prodazh-kakie-oni-byvayut-kak-vybrat-i-upravlyat-kanalami-sbyta/" target="_blank">https://www.bitrix24.ru/journal/chto-takoe-kanaly-prodazh-kakie-oni-byvayut-kak-vybrat-i-upravlyat-kanalami-sbyta/</a>
+]]></description><link>bitrix24\список-блоков-для-статей\оглавление\оглавление.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Оглавление/Оглавление.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-12.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-12.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Опросы инструкция]]></title><description><![CDATA[ 
+ <br> %D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%BF%D0%BE_%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8E_%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2_(1).docx]]></description><link>bitrix24\список-блоков-для-статей\опросы-инструкция\опросы-инструкция.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Опросы инструкция/Опросы инструкция.md</guid><pubDate>Sat, 07 Sep 2024 08:28:55 GMT</pubDate></item><item><title><![CDATA[Простая таблица]]></title><description><![CDATA[ 
+ <br>Простая табоица необходима тогда, когда нужно что-то сравнить. Для вставки используется следующий код:<br>&lt;table class="table table-bordered"&gt;
+			&lt;tbody&gt;
+				&lt;tr&gt;
+					&lt;td style="text-align: center;"&gt;
+						&lt;strong&gt;Pellentesque iaculis dapibus elementum&lt;/strong&gt;
+					&lt;/td&gt;
+					&lt;td style="text-align: center;"&gt;
+						&lt;strong&gt;Proin condimentum tincidunt commodo&lt;/strong&gt;
+					&lt;/td&gt;
+					&lt;td style="text-align: center;"&gt;
+						&lt;strong&gt;Nullam congue dapibus sollicitudin&lt;/strong&gt;
+					&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td style="text-align: left;"&gt;
+						Cras porttitor, magna at imperdiet lobortis, velit urna tristique sapien, et molestie dolor
+						urna at leo.
+					&lt;/td&gt;
+					&lt;td style="text-align: left;"&gt;
+						Sed finibus eleifend leo at feugiat.
+					&lt;/td&gt;
+					&lt;td style="text-align: left;"&gt;
+						Pellentesque tempor malesuada odio.
+					&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/tbody&gt;
+		&lt;/table&gt;
+Копировать<br><br><img alt="Untitled 18.png" src="lib\media\untitled-18.png"><br><br>
+<br>Выравнивание по центру и жирность шрифта для заголовка таблицы регулируется с помощью стиля text-align: center; в ячейке и тэга &lt;strong&gt; в контенте.
+<br>Для обычного контента таблицы используется text-align: left;
+<br>Таблицы формируются по строкам.  - это строка,  - это ячейка.
+<br>Ширина ячейки зависит от максимального количества контента в ней.
+]]></description><link>bitrix24\список-блоков-для-статей\простая-таблица\простая-таблица.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Простая таблица/Простая таблица.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-18.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-18.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Серый маркированный список]]></title><description><![CDATA[ 
+ <br>Для вставки используется следующий код:<br>&lt;ul class="bx-ui-list bx-ui-list_round-primary"&gt;
+			&lt;li&gt;Integer pulvinar purus sem, et egestas ante elementum vitae.&lt;/li&gt;
+			&lt;li&gt;Fusce faucibus odio felis, et rhoncus enim consectetur at.&lt;/li&gt;
+			&lt;li&gt;Morbi sollicitudin turpis ut dolor placerat mattis.&lt;/li&gt;
+			&lt;li&gt;Morbi odio augue, rhoncus a diam non, bibendum pulvinar elit.&lt;/li&gt;
+		&lt;/ul&gt;
+Копировать<br><br><img alt="Untitled 4.png" src="lib\media\untitled-4.png"><br><br>
+<br>Список лежит в &lt;ol class="bx-ui-list bx-ui-list_primary"&gt;
+<br>]]></description><link>bitrix24\список-блоков-для-статей\серый-маркированный-список\серый-маркированный-список.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Серый маркированный список/Серый маркированный список.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-4.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-4.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Синий маркированный список]]></title><description><![CDATA[ 
+ <br>&lt;ul class="bx-ui-list bx-ui-list_primary"&gt;
+			&lt;li&gt;Sed vestibulum pharetra tortor eu convallis.&lt;/li&gt;
+			&lt;li&gt;Mauris commodo mi ante, eget hendrerit orci scelerisque sit amet.&lt;/li&gt;
+			&lt;li&gt;Vivamus molestie rhoncus urna.&lt;/li&gt;
+			&lt;li&gt;Maecenas dictum, nunc id euismod vulputate, nunc felis pretium mi.&lt;/li&gt;
+		&lt;/ul&gt;
+Копировать<br>Обычный маркированый список, который используется в большинстве случаев.<br><img alt="Untitled 13.png" src="lib\media\untitled-13.png"><br>
+<br>Список лежит в &lt;ol class="bx-ui-list bx-ui-list_primary"&gt;
+<br>Каждый элемент списка лежит в отдельном <br>
+<br>Отдел продаж с нуля: как построить и управлять  
+Хотите построить отдел продаж с нуля или улучшить уже существующий?<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/otdel-prodazh-kak-postroit-i-upravlyat/" target="_blank">https://www.bitrix24.ru/journal/otdel-prodazh-kak-postroit-i-upravlyat/</a>  
+<br>Как использование диаграммы Ганта решает проблемы планирования проектов  
+Диаграмма Ганта - удобный способ визуализации плана проекта.<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/diagramma-ganta/" target="_blank">https://www.bitrix24.ru/journal/diagramma-ganta/</a>
+]]></description><link>bitrix24\список-блоков-для-статей\синий-маркированный-список\синий-маркированный-список.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Синий маркированный список/Синий маркированный список.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-13.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-13.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Синий список с нумерацией]]></title><description><![CDATA[ 
+ <br>&lt;div class="col-12 mb-3"&gt;
+	&lt;ol class="bx-ui-list bx-ui-list_round-primary"&gt;
+		&lt;li&gt;Fusce vehicula risus quis lectus luctus lacinia. Integer aliquet mi lectus, ac molestie nisllaoreet eu. Duis mattis eros nunc, ut pulvinar purus ultricies sit amet.&lt;/li&gt;
+		&lt;li&gt;In convallis urna vitae diam vulputate, at elementum libero gravida. Sed massa ipsum, rutrum aligula ac, faucibus finibus ipsum.&lt;/li&gt;
+		&lt;li&gt;Pellentesque velit ex, commodo ac ipsum id, consectetur tempus magna.&lt;/li&gt;
+		&lt;li&gt;Morbi sit amet turpis dolor.&lt;/li&gt;
+	&lt;/ol&gt;
+&lt;/div&gt;
+Копировать<br>Синий нумерованный список используется для алгоритма действий.<br><img alt="Untitled.png" src="lib\media\untitled.png"><br>
+<br>Весь маркированный список лежит в &lt;div class="col-12 mb-3"&gt;
+<br>Сам список дополнительно лежит в &lt;ol class="bx-ui-list bx-ui-list_round-primary"&gt;
+<br>Что такое автоворонки и как они работают?  
+Узнайте, что такое автоворонки и как они помогают автоматизировать процесс продаж.<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/chto-takoe-avtovoronki-i-kak-oni-rabotayut/" target="_blank">https://www.bitrix24.ru/journal/chto-takoe-avtovoronki-i-kak-oni-rabotayut/</a>
+]]></description><link>bitrix24\список-блоков-для-статей\синий-список-с-нумерацией\синий-список-с-нумерацией.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Синий список с нумерацией/Синий список с нумерацией.md</guid><pubDate>Sat, 07 Sep 2024 08:28:55 GMT</pubDate><enclosure url="lib\media\untitled.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Текст в зеленой рамке]]></title><description><![CDATA[ 
+ <br>Текст в зеленой рамке служит для выделения какой-то мысли.<br>&lt;div style="border: 2px solid; border-color: \#b7db2a; padding: 30px 30px 20px; border-radius: 10px;"&gt;
+			&lt;p&gt;
+				&lt;b&gt;Nota bene!&lt;/b&gt; In sed tincidunt tortor. Fusce sed ipsum viverra, venenatis dolor a,
+				facilisis mi.
+			&lt;/p&gt;
+		&lt;/div&gt;
+Копировать<br><br><img alt="Untitled 9.png" src="lib\media\untitled-9.png"><br><br>
+<br>Все стили блока задаются в диве &lt;div style="border: 2px solid; border-color: \#b7db2a; padding: 30px 30px 20px; border-radius: 10px;"&gt;
+<br>Внутри дива может лежать любой контент
+]]></description><link>bitrix24\список-блоков-для-статей\текст-в-зеленой-рамке\текст-в-зеленой-рамке.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Текст в зеленой рамке/Текст в зеленой рамке.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-9.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-9.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Текст в синей рамке]]></title><description><![CDATA[ 
+ <br>Текст в синей рамке служит для выделения какой-то мысли.<br>&lt;div style="border: 2px solid; border-color: \#2fc7f7; padding: 30px; border-radius: 10px;"&gt;
+			&lt;p style="margin-bottom: 25px;"&gt;Eleifend quis felis sit amet, posuere laoreet mi. Donec iaculis, neque quis
+				blandit efficitur, neque
+				purus pretium neque, et molestie mi urna nec mauris. Praesent in consequat odio. Orci varius natoque
+				penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eget lorem porttitor, congue
+				lectus dictum, condimentum nibh. Pellentesque non consectetur nisl, ut mattis mi. Maecenas
+				scelerisque dui sit amet augue bibendum, eget imperdiet lacus feugiat. Nulla at pharetra risus.
+				Mauris lobortis quis enim vel lacinia. Sed convallis velit ac massa ornare placerat. Praesent nisi
+				nisl, vehicula at velit sed, tempor suscipit eros. Donec sed metus odio. &lt;/p&gt;
+		&lt;/div&gt;
+Копировать<br><br><img alt="Untitled 5.png" src="lib\media\untitled-5.png"><br><br>
+<br>Все стили блока задаются в диве &lt;div style="border: 2px solid; border-color: \#2fc7f7; padding: 30px; border-radius: 10px;"&gt;
+<br>Внутри дива может лежать любой контент
+]]></description><link>bitrix24\список-блоков-для-статей\текст-в-синей-рамке\текст-в-синей-рамке.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Текст в синей рамке/Текст в синей рамке.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-5.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-5.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Цитата]]></title><description><![CDATA[ 
+ <br>&lt;blockquote&gt;
+			&lt;h4 style="margin: 1em 0;"&gt;Умная цитата&lt;/h4&gt;
+			&lt;p style="margin-bottom: 25px;"&gt;Curabitur massa velit, sollicitudin vel diam sit amet, iaculis cursus diam.
+				Ut posuere risus mauris,
+				rhoncus
+				semper eros vulputate quis. Nullam orci diam, gravida at porta a, facilisis non enim. Interdum et
+				malesuada
+				fames ac ante ipsum primis in faucibus. Fusce accumsan lacus quis lacus accumsan sagittis. In at mattis
+				neque. Integer fermentum tristique pulvinar. Morbi efficitur, tellus quis gravida efficitur, quam arcu
+				pellentesque nibh, et porttitor metus massa a libero.&lt;/p&gt;
+			&lt;footer&gt;
+				&lt;cite title="Цитата"&gt;Источник цитаты&lt;/cite&gt;
+			&lt;/footer&gt;
+		&lt;/blockquote&gt;
+Копировать<br>Блок используется для выделения мысли или важной информации.<br><img alt="Untitled 3.png" src="lib\media\untitled-3.png"><br>
+<br>Весь контент блока лежит в &lt;blockquote&gt;&lt;/blockquote&gt;
+<br>Заголовок цитаты задается при помощи &lt;h4 style="margin: 1em 0;"&gt;Умная цитата&lt;/h4&gt;. Можно не использовать.
+<br>Источник цитаты задается при помощи &lt;footer&gt;&lt;cite title="Цитата"&gt;Источник цитаты&lt;/cite&gt;&lt;/footer&gt;. Можно не использовать.
+<br>Внутри цитаты весь текст, который лежит в &lt;p&gt;&lt;/p&gt; форматируется автоматически.
+<br>Отдел продаж с нуля: как построить и управлять  
+Хотите построить отдел продаж с нуля или улучшить уже существующий?<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/otdel-prodazh-kak-postroit-i-upravlyat/" target="_blank">https://www.bitrix24.ru/journal/otdel-prodazh-kak-postroit-i-upravlyat/</a>  
+<br>Что такое автоворонки и как они работают?  
+Узнайте, что такое автоворонки и как они помогают автоматизировать процесс продаж.<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/chto-takoe-avtovoronki-i-kak-oni-rabotayut/" target="_blank">https://www.bitrix24.ru/journal/chto-takoe-avtovoronki-i-kak-oni-rabotayut/</a>
+]]></description><link>bitrix24\список-блоков-для-статей\цитата\цитата.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Цитата/Цитата.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-3.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-3.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Чеклист с синими галочками]]></title><description><![CDATA[ 
+ <br>Просто чеклист. По-умочланию галочки включены, пользователь может их отжать. Для вставки используется следующий код:<br>&lt;div class="bx-ui-field__container bx-ui-field__container_checkbox"&gt;
+			&lt;input id="crm-1" type="checkbox" class="bx-ui-field__input" checked=""&gt; &lt;label for="crm-1"
+				class="bx-ui-field__label bx-ui-field__label_container"&gt; &lt;span
+					class="bx-ui-field__selector bx-ui-field__selector_primary bx-ui-field__selector_checkbox"&gt;
+					&lt;span class="bx-ui-field__selector-arrow"&gt;&lt;/span&gt; &lt;/span&gt; &lt;span
+					class="bx-ui-field__selector-text"&gt;Class aptent taciti sociosqu ad litora torquent per conubia
+					nostra, per inceptos himenaeos.&lt;/span&gt; &lt;/label&gt;
+		&lt;/div&gt;
+
+		&lt;div class="bx-ui-field__container bx-ui-field__container_checkbox"&gt;
+			&lt;input id="crm-2" type="checkbox" class="bx-ui-field__input" checked=""&gt; &lt;label for="crm-2"
+				class="bx-ui-field__label bx-ui-field__label_container"&gt; &lt;span
+					class="bx-ui-field__selector bx-ui-field__selector_primary bx-ui-field__selector_checkbox"&gt;
+					&lt;span class="bx-ui-field__selector-arrow"&gt;&lt;/span&gt; &lt;/span&gt; &lt;span
+					class="bx-ui-field__selector-text"&gt;Nullam nec iaculis leo, ac iaculis tellus.&lt;/span&gt; &lt;/label&gt;
+		&lt;/div&gt;
+Копировать<br><br><img alt="Untitled 17.png" src="lib\media\untitled-17.png"><br><br>
+<br>Для корректной работы необходимо менять &lt;input id="crm-2" и &lt;label for="crm-2"
+]]></description><link>bitrix24\список-блоков-для-статей\чеклист-с-синими-галочками\чеклист-с-синими-галочками.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Чеклист с синими галочками/Чеклист с синими галочками.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-17.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-17.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Cиний нумерованный список]]></title><description><![CDATA[ 
+ <br>&lt;ol class="bx-ui-list bx-ui-list_primary"&gt;
+			&lt;li&gt;Integer finibus imperdiet dui vitae lobortis.&lt;/li&gt;
+			&lt;li&gt;Integer finibus justo lorem, pulvinar condimentum quam ultricies eget.&lt;/li&gt;
+			&lt;li&gt;Morbi ut eros pharetra odio feugiat feugiat.&lt;/li&gt;
+			&lt;li&gt;Morbi tellus justo, venenatis et nisi non, dignissim feugiat nulla.&lt;/li&gt;
+			&lt;li&gt;Ut varius interdum felis, eget sodales metus aliquam in.&lt;/li&gt;
+			&lt;li&gt;Sed nulla odio, convallis ullamcorper finibus non, mattis id augue.&lt;/li&gt;
+&lt;/ol&gt;
+Копировать<br>Обычный список, в котором маркерами служат цифры в последовательном порядке.<br><img alt="Untitled 19.png" src="lib\media\untitled-19.png"><br>
+<br>Список лежит в &lt;ol class="bx-ui-list bx-ui-list_primary"&gt;
+<br>Каждый элемент списка — отдельный набор <br>
+]]></description><link>bitrix24\список-блоков-для-статей\cиний-нумерованный-список\cиний-нумерованный-список.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Cиний нумерованный список/Cиний нумерованный список.md</guid><pubDate>Sat, 07 Sep 2024 08:31:17 GMT</pubDate><enclosure url="lib\media\untitled-19.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\untitled-19.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Картинка]]></title><description><![CDATA[ 
+ <br>Картинка вставляется без прямого указания размеров:<br>&lt;p style="margin-bottom: 25px;"&gt;
+			&lt;img src="/images/content_ru/blogs/crm_01.png" title="Картинка" alt="Картинка"&gt;
+		&lt;/p&gt;
+Копировать<br><br>
+<br>title="Картинка" нужен для SEO оптимизации
+<br>alt="Картинка" нужен также для SEO оптимизации и для инструментов помощи людям с ограничениями.
+<br><br>5 причин, почему конструктор сайтов - важный инструмент для успешных продаж в интернете  
+Если вы хотите успешно продавать в интернете, то конструктор сайтов - это незаменимый инструмент.<br>
+<a rel="noopener" class="external-link" href="https://www.bitrix24.ru/journal/5-prichin-pochemu-konstruktor-saytov-vazhnyy-instrument-dlya-uspeshnykh-prodazh-v-internete/" target="_blank">https://www.bitrix24.ru/journal/5-prichin-pochemu-konstruktor-saytov-vazhnyy-instrument-dlya-uspeshnykh-prodazh-v-internete/</a>
+]]></description><link>bitrix24\список-блоков-для-статей\картинка.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Картинка.md</guid><pubDate>Sat, 07 Sep 2024 08:28:55 GMT</pubDate></item><item><title><![CDATA[Начало статьи]]></title><description><![CDATA[ 
+ <br>&lt;article&gt;
+	&lt;section id="part1"&gt;
+		&lt;h2 style="margin: 3rem 0 1.6rem;"&gt;Заголовок H2&lt;/h2&gt;
+		&lt;p style="margin-bottom: 25px;"&gt;
+			Curabitur massa velit, sollicitudin vel diam sit amet, iaculis cursus diam. Ut posuere risus mauris, rhoncus
+			semper eros vulputate quis. Nullam orci diam, gravida at porta a, facilisis non enim. Interdum et malesuada
+			fames ac ante ipsum primis in faucibus. Fusce accumsan lacus quis lacus accumsan sagittis. In at mattis
+			neque. Integer fermentum tristique pulvinar. Morbi efficitur, tellus quis gravida efficitur, quam arcu
+			pellentesque nibh, et porttitor metus massa a libero.
+		&lt;/p&gt;
+Копировать<br>Все тело статьи должно располагаться внутри тегов &lt;article&gt;Контент&lt;/article&gt; для улучшения показателей поисковой оптимизации.]]></description><link>bitrix24\список-блоков-для-статей\начало-статьи.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Начало статьи.md</guid><pubDate>Sat, 07 Sep 2024 08:28:55 GMT</pubDate></item><item><title><![CDATA[Неразрывный дефис]]></title><description><![CDATA[ 
+ <br>&amp;\#8209;
+Копировать]]></description><link>bitrix24\список-блоков-для-статей\неразрывный-дефис.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Неразрывный дефис.md</guid><pubDate>Sat, 07 Sep 2024 08:28:55 GMT</pubDate></item><item><title><![CDATA[Объединение ячеек]]></title><description><![CDATA[ 
+ <br>по горизонтали <br>по вертикали ]]></description><link>bitrix24\список-блоков-для-статей\объединение-ячеек.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Объединение ячеек.md</guid><pubDate>Sat, 07 Sep 2024 08:28:55 GMT</pubDate></item><item><title><![CDATA[Равные колонки]]></title><description><![CDATA[ 
+ <br>добавить стиль к первому td<br>]]></description><link>bitrix24\список-блоков-для-статей\равные-колонки.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Равные колонки.md</guid><pubDate>Sat, 07 Sep 2024 08:28:55 GMT</pubDate></item><item><title><![CDATA[Стрелка вниз, стрелка вправо]]></title><description><![CDATA[ 
+ <br>&amp;darr;  &amp;rarr;
+Копировать]]></description><link>bitrix24\список-блоков-для-статей\стрелка-вниз,-стрелка-вправо.html</link><guid isPermaLink="false">Bitrix24/Список блоков для статей/Стрелка вниз, стрелка вправо.md</guid><pubDate>Sat, 07 Sep 2024 08:28:55 GMT</pubDate></item><item><title><![CDATA[Битрикс24]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><a data-href="Для обмена кодом" href="bitrix24\для-обмена-кодом.html" class="internal-link" target="_self" rel="noopener">Для обмена кодом</a><br><img alt="1463.png" src="lib\media\1463.png">]]></description><link>bitrix24\битрикс24.html</link><guid isPermaLink="false">Bitrix24/Битрикс24.md</guid><pubDate>Sat, 07 Sep 2024 08:54:19 GMT</pubDate><enclosure url="lib\media\1463.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\1463.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1С-Битрикс: Enterprise]]></title><description><![CDATA[ 
+ <br><br>&lt;h2 class="article-title mt-0 mb-5"&gt;Платформа для создания и развития крупных онлайн-проектов&lt;/h2&gt;
+&lt;div class="article-description mt-0 mb-5"&gt;
+	Enterprise решение необходимо если: 
+
+	&lt;ul class="mb-5 bx-ui-list bx-ui-list_dots"&gt;
+		&lt;li class="bx-ui-list__item"&gt;
+			&lt;div class="bx-ui-list__text"&gt;Вы поддерживаете собственный крупный сайт или интернет-магазин с суточной посещаемостью от 50 000 посетителей&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li class="bx-ui-list__item"&gt;
+			&lt;div class="bx-ui-list__text"&gt;Необходима работа проекта 24/7 без простоев на периоды восстановления или обслуживания&lt;/div&gt;
+		&lt;/li&gt;
+		&lt;li class="bx-ui-list__item"&gt;
+			&lt;div class="bx-ui-list__text"&gt;Вашей компании требуется контроль над группой подчиненных веб-проектов ввиду сложности своей структуры&lt;/div&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;&lt;/div&gt;
+Копировать<br>&lt;div class="row"&gt;
+	&lt;div class="row mb-5 custom-list-partners-container"&gt;
+		&lt;div class="row align-items-center col-lg-4 col-md-6 col-12 custom-list-partners-item"&gt;
+			&lt;div class="mb-3 col-auto custom-list-partners-item-icon"&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" width="28px" height="28px"&gt;
+					&lt;path fill-rule="evenodd" fill="\#E01839" d="M10.553,5.996 L28.002,5.996 L26.404,19.854 L8.032,19.854 L4.204,1.863 L0.005,1.863 L0.005,-0.001 L5.693,-0.001 L9.521,17.990 L24.763,17.990 L25.930,7.859 L10.553,7.859 L10.553,5.996 ZM10.552,21.389 C12.355,21.389 13.821,22.872 13.821,24.694 C13.821,26.517 12.355,28.000 10.552,28.000 C8.749,28.000 7.282,26.517 7.282,24.694 C7.282,22.872 8.749,21.389 10.552,21.389 ZM10.552,26.136 C11.338,26.136 11.978,25.489 11.978,24.694 C11.978,23.899 11.338,23.253 10.552,23.253 C9.766,23.253 9.126,23.899 9.126,24.694 C9.126,25.489 9.766,26.136 10.552,26.136 ZM23.696,21.389 C25.499,21.389 26.966,22.872 26.966,24.694 C26.966,26.517 25.499,28.000 23.696,28.000 C21.894,28.000 20.427,26.517 20.427,24.694 C20.427,22.872 21.894,21.389 23.696,21.389 ZM23.696,26.136 C24.482,26.136 25.122,25.489 25.122,24.694 C25.122,23.899 24.482,23.253 23.696,23.253 C22.910,23.253 22.271,23.899 22.271,24.694 C22.271,25.489 22.910,26.136 23.696,26.136 Z"&gt;&lt;/path&gt;
+				&lt;/svg&gt;
+			&lt;/div&gt;
+			&lt;div class="mb-3 col custom-list-partners-item-text"&gt;Интернет-магазины B2С и B2B&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="row align-items-center col-lg-4 col-md-6 col-12 custom-list-partners-item"&gt;
+			&lt;div class="mb-3 col-auto custom-list-partners-item-icon"&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" width="26px" height="22px"&gt;
+					&lt;path fill-rule="evenodd" fill="\#E01839" d="M9.712,-0.000 C8.361,-0.000 7.247,1.114 7.247,2.465 L7.247,3.287 L2.465,3.287 C1.114,3.287 0.000,4.401 0.000,5.752 L0.000,19.534 C0.000,20.886 1.114,21.999 2.465,21.999 L23.534,21.999 C24.886,21.999 26.000,20.886 26.000,19.534 L26.000,5.752 C26.000,4.401 24.886,3.287 23.534,3.287 L18.753,3.287 L18.753,2.465 C18.753,1.114 17.639,-0.000 16.287,-0.000 L9.712,-0.000 ZM9.712,1.643 L16.287,1.643 C16.757,1.643 17.109,1.995 17.109,2.465 L17.109,3.287 L8.891,3.287 L8.891,2.465 C8.891,1.995 9.243,1.643 9.712,1.643 ZM2.465,4.931 L23.534,4.931 C24.004,4.931 24.356,5.283 24.356,5.752 L24.356,10.905 L15.877,10.905 L15.877,9.415 C15.876,8.962 15.508,8.593 15.054,8.593 L10.945,8.593 C10.491,8.593 10.124,8.962 10.124,9.415 L10.124,10.905 L1.644,10.905 L1.644,5.752 C1.644,5.283 1.996,4.931 2.465,4.931 ZM11.767,10.237 L14.233,10.237 L14.233,13.203 L11.767,13.203 L11.767,10.237 ZM1.644,12.549 L10.124,12.549 L10.124,14.025 C10.124,14.479 10.491,14.848 10.945,14.848 L15.054,14.848 C15.508,14.848 15.876,14.479 15.877,14.025 L15.877,12.549 L24.356,12.549 L24.356,19.534 C24.356,20.004 24.004,20.356 23.534,20.356 L2.465,20.356 C1.996,20.356 1.644,20.004 1.644,19.534 L1.644,12.549 Z"&gt;&lt;/path&gt;
+				&lt;/svg&gt;
+			&lt;/div&gt;
+			&lt;div class="mb-3 col custom-list-partners-item-text"&gt;Маркетплейсы товаров и услуг&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="row align-items-center col-lg-4 col-md-6 col-12 custom-list-partners-item"&gt;
+			&lt;div class="mb-3 col-auto custom-list-partners-item-icon"&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" width="37px" height="25px"&gt;
+					&lt;path fill-rule="evenodd" fill="\#E01839" d="M31.823,13.372 L31.823,11.556 L36.988,11.556 L36.988,13.372 L31.823,13.372 ZM30.547,7.440 L33.570,7.440 L33.570,9.256 L30.547,9.256 L30.547,7.440 ZM34.862,18.063 L30.091,18.063 L30.091,16.248 L34.862,16.248 L34.862,18.063 ZM21.807,25.009 C21.366,25.009 20.939,24.928 20.524,24.790 L20.519,24.804 L20.424,24.763 C20.398,24.754 20.374,24.740 20.349,24.731 L1.264,16.647 L1.122,16.471 C1.007,16.331 0.006,15.026 0.006,12.418 C0.006,10.137 1.051,8.700 1.096,8.640 L1.242,8.442 L19.944,0.458 L19.950,0.470 C20.539,0.177 21.159,0.009 21.807,0.009 C25.647,0.009 28.655,5.500 28.655,12.509 C28.655,19.519 25.647,25.009 21.807,25.009 ZM4.754,8.918 L2.452,9.902 C2.244,10.273 1.829,11.170 1.829,12.418 C1.829,13.935 2.241,14.830 2.436,15.170 L4.960,16.239 C3.939,13.257 4.265,10.642 4.754,8.918 ZM7.059,7.934 C6.571,8.938 5.042,12.767 7.387,17.267 L16.897,21.296 C15.693,19.054 14.959,15.968 14.959,12.509 C14.959,9.057 15.691,5.978 16.890,3.737 L7.059,7.934 ZM17.842,12.509 C17.842,11.329 17.301,10.557 16.880,10.457 C16.819,11.115 16.782,11.796 16.782,12.509 C16.782,13.222 16.819,13.905 16.880,14.562 C17.301,14.462 17.842,13.689 17.842,12.509 ZM21.807,1.825 C19.908,1.825 17.910,4.461 17.128,8.666 C18.573,8.889 19.665,10.487 19.665,12.509 C19.665,14.532 18.573,16.129 17.128,16.353 C17.777,19.841 19.261,22.245 20.833,22.964 L20.961,23.018 C21.242,23.129 21.525,23.193 21.807,23.193 C24.233,23.193 26.832,18.899 26.832,12.509 C26.832,6.119 24.233,1.825 21.807,1.825 Z"&gt;&lt;/path&gt;
+				&lt;/svg&gt;
+			&lt;/div&gt;
+			&lt;div class="mb-3 col custom-list-partners-item-text"&gt;Сайты корпораций и госструктур&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="row align-items-center col-lg-4 col-md-6 col-12 custom-list-partners-item"&gt;
+			&lt;div class="mb-3 col-auto custom-list-partners-item-icon"&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" width="36px" height="24px"&gt;
+					&lt;path fill-rule="evenodd" fill="\#E01839" d="M35.659,6.897 L35.303,7.167 L35.361,7.212 C34.680,8.154 34.321,9.267 34.321,10.433 C34.321,11.280 34.514,11.480 34.878,12.226 C35.225,12.104 35.624,12.219 35.851,12.545 C36.131,12.947 36.046,13.509 35.659,13.801 L20.304,23.495 C19.874,23.821 19.291,23.994 18.725,23.994 C18.402,23.994 18.084,23.938 17.803,23.821 L1.534,18.559 L1.389,18.359 C0.482,17.104 0.002,16.236 0.002,14.675 C0.002,13.115 0.482,11.628 1.389,10.374 L1.391,10.375 C1.442,10.304 1.501,10.242 1.571,10.188 L16.927,0.492 C17.576,-0.000 18.674,-0.148 19.427,0.167 L35.473,5.335 C35.765,5.456 35.971,5.733 36.009,6.058 C36.047,6.383 35.915,6.704 35.659,6.897 ZM18.785,1.835 C18.753,1.821 18.665,1.792 18.511,1.792 C18.258,1.792 18.039,1.871 17.943,1.944 L3.849,10.683 L18.443,15.250 C18.475,15.261 18.565,15.291 18.719,15.291 C18.972,15.291 19.192,15.212 19.291,15.137 L33.383,6.400 L18.785,1.835 ZM32.595,10.431 C32.595,9.991 32.638,9.554 32.714,9.126 L20.304,16.591 C19.886,16.908 19.309,17.089 18.720,17.089 C18.719,17.089 18.719,17.089 18.719,17.089 C18.390,17.089 18.074,17.031 17.803,16.918 L2.412,12.020 C1.965,12.830 1.727,13.734 1.727,14.674 C1.727,15.761 2.039,16.183 2.632,17.080 L18.443,22.153 C18.663,22.241 19.099,22.186 19.291,22.042 L33.450,13.252 C32.891,12.199 32.595,11.648 32.595,10.431 ZM17.992,4.410 L28.319,7.413 L26.714,8.528 L16.387,5.525 L17.992,4.410 Z"&gt;&lt;/path&gt;
+				&lt;/svg&gt;
+			&lt;/div&gt;
+			&lt;div class="mb-3 col custom-list-partners-item-text"&gt;Информационные порталы и сервисы&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="row align-items-center col-lg-4 col-md-6 col-12 custom-list-partners-item"&gt;
+			&lt;div class="mb-3 col-auto custom-list-partners-item-icon"&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" width="27px" height="25px"&gt;
+					&lt;path fill-rule="evenodd" fill="\#E01839" d="M27.002,24.517 L24.323,14.713 L24.335,14.702 L23.688,12.390 L20.720,1.527 L20.654,1.544 L20.222,-0.000 L19.093,1.001 C16.453,3.346 13.647,4.199 10.516,3.608 C6.780,2.906 3.354,4.237 0.341,7.570 L-0.015,7.962 L4.520,22.197 L5.619,20.810 C7.956,17.859 10.681,16.780 13.949,17.513 C17.326,18.267 20.273,17.763 22.740,16.031 L25.190,25.000 L27.002,24.517 ZM14.364,15.706 C10.897,14.933 7.846,15.834 5.276,18.392 L2.099,8.420 C4.575,5.853 7.219,4.875 10.164,5.428 C13.404,6.038 16.437,5.325 19.200,3.307 L21.916,13.015 L22.213,14.105 C20.063,15.881 17.490,16.408 14.364,15.706 Z"&gt;&lt;/path&gt;
+				&lt;/svg&gt;
+			&lt;/div&gt;
+			&lt;div class="mb-3 col custom-list-partners-item-text"&gt;Тематические социальные сети&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="row align-items-center col-lg-4 col-md-6 col-12 custom-list-partners-item"&gt;
+			&lt;div class="mb-3 col-auto custom-list-partners-item-icon"&gt;
+				&lt;svg xmlns="http://www.w3.org/2000/svg" width="23px" height="25px"&gt;
+					&lt;path fill-rule="evenodd" fill="\#E01839" d="M7.040,12.499 C7.040,12.088 6.950,11.702 6.771,11.355 C6.349,10.505 5.491,9.926 4.480,9.926 C3.072,9.926 1.920,11.084 1.920,12.499 C1.920,13.929 3.072,15.074 4.480,15.074 C5.478,15.074 6.349,14.507 6.771,13.658 C6.938,13.310 7.040,12.911 7.040,12.499 ZM18.520,17.924 C17.112,17.924 15.960,19.080 15.960,20.496 C15.960,21.925 17.112,23.070 18.520,23.070 C19.941,23.070 21.080,21.924 21.080,20.496 C21.080,19.080 19.941,17.924 18.520,17.924 ZM18.520,1.930 C17.112,1.930 15.960,3.088 15.960,4.503 C15.960,4.928 16.050,5.314 16.229,5.662 C16.651,6.497 17.521,7.076 18.520,7.076 C19.941,7.076 21.080,5.931 21.080,4.503 C21.080,3.088 19.941,1.930 18.520,1.930 ZM23.000,4.503 C23.000,6.986 21.003,9.007 18.520,9.007 C17.112,9.007 15.858,8.351 15.038,7.334 L8.819,11.394 C8.909,11.741 8.960,12.114 8.960,12.499 C8.960,12.886 8.909,13.259 8.819,13.606 L15.038,17.666 C15.870,16.636 17.125,15.993 18.520,15.993 C21.003,15.993 23.000,18.013 23.000,20.496 C23.000,22.979 21.003,25.000 18.520,25.000 C16.050,25.000 14.040,22.992 14.040,20.496 C14.040,20.110 14.091,19.737 14.181,19.390 L7.962,15.317 C7.155,16.347 5.888,17.003 4.480,17.003 C2.010,17.004 -0.000,14.996 -0.000,12.499 C-0.000,10.016 2.010,7.997 4.480,7.997 C5.888,7.997 7.155,8.653 7.962,9.682 L14.181,5.610 C14.091,5.263 14.040,4.889 14.040,4.503 C14.040,2.020 16.050,-0.000 18.520,-0.000 C21.003,-0.000 23.000,2.020 23.000,4.503 Z"&gt;&lt;/path&gt;
+				&lt;/svg&gt;
+				
+			&lt;/div&gt;
+			&lt;div class="mb-3 col custom-list-partners-item-text"&gt;Каталоги цифрового контента&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col"&gt;
+	&lt;a href="/partners/" class="bx-ui-btn bx-ui-btn_lg bx-ui-btn_primary"&gt;Узнать стоимость&lt;/a&gt;
+	&lt;a href="/personal/application/add.php" class="bx-ui-btn bx-ui-btn_lg bx-ui-btn_primary-light"&gt;Видеопрезентация новой&lt;/a&gt;
+&lt;/div&gt;в
+Копировать<br>&lt;div class="row py-5 article-section article-section-gray"&gt;
+
+
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			
+&lt;h2 class="article-title mt-0 mb-5"&gt;Управление контентом&lt;/h2&gt;						&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-4 px-0"&gt;
+&lt;img class="d-block w-100" src="https://enterprise.1c-bitrix.ru/upload/iblock/245/3e0cccc25fbb6254bf329c4dc8c82180.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-8"&gt;
+&lt;p&gt;Используйте CMS для организации работы и публикации на сайте информационных материалов любых типов, настраивая права доступа. Задействуйте медиатеку для структурирования, поиска и использования мультимедийной информации.&lt;/p&gt;
+&lt;p&gt;
+ПОрганизуйте динамические данные (новости, публикации, каталог), управляйте атрибутами, рубрикацией и взаимосвязями. Храните информацию на различных языка, а также автоматизируйте работу контент-редакторов и сокращайте расходы на поддержку своих сайтов.&lt;/p&gt;
+&lt;div class="row"&gt;
+&lt;/div&gt;
+				
+&lt;/div&gt;
+&lt;/div&gt;					&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+Копировать<br>&lt;div class="row py-5 article-section article-section-white"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			
+&lt;h2 class="article-title mt-0 mb-5"&gt;Электронная коммерция&lt;/h2&gt;						&lt;div class="row"&gt;
+	&lt;div class="col-12 col-lg-4 px-0"&gt;
+		&lt;img class="d-block w-100" src="https://enterprise.1c-bitrix.ru/upload/iblock/773/ed79bbabce2fc61353609fc7304b05d4.jpg"&gt;
+		&lt;/div&gt;		
+&lt;div class="col-12 col-lg-8"&gt;
+&lt;p&gt;Обеспечивайте максимальную конверсию, благодаря возможности быстро и удобно оформить заказ и выбрать доступные опции: полную или частичную отгрузку, сроки доставки, варианты оплаты и др.&lt;/p&gt;
+&lt;p&gt;
+	Интеграция с онлайн-кассами и различными платежными системами позволит принимать платежи прямо на сайте без потребности формировать и отправлять дополнительные документы.&lt;/p&gt;
+&lt;div class="row"&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;					&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="row py-5 article-section article-section-gray"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			
+&lt;h2 class="article-title mt-0 mb-5"&gt;Многосайтовость и конструктор лендингов&lt;/h2&gt;						&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-4 px-0"&gt;
+&lt;img class="d-block w-100" src="https://enterprise.1c-bitrix.ru/upload/iblock/a4c/02e8e1a8a6e0b4e8c0fee4662d8c65cf.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-8"&gt;
+&lt;p&gt;Управляйте всеми веб-проектами компании централизованно: это позволит сократить расходы на поддержку и развитие, а также обеспечить единые стандарты безопасности.&lt;/p&gt;
+&lt;p&gt;
+	Создавайте неограниченное число страниц, лендингов и полноценных сайтов во встроенном конструкторе для поддержки маркетинговых активностей, продвижения отдельных направлений бизнеса и организации мероприятий.&lt;/p&gt;
+&lt;div class="row"&gt;
+&lt;/div&gt;
+				
+&lt;/div&gt;
+&lt;/div&gt;					&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="row py-5 article-section article-section-white"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			
+&lt;h2 class="article-title mt-0 mb-5"&gt;Коммуникации&lt;/h2&gt;						&lt;div class="row"&gt;
+	&lt;div class="col-12 col-lg-4 px-0"&gt;
+		&lt;img class="d-block w-100" src="https://enterprise.1c-bitrix.ru/upload/iblock/641/3fb504d5404a35ea5c513ce7eef01159.jpg"&gt;
+		&lt;/div&gt;		
+&lt;div class="col-12 col-lg-8"&gt;
+&lt;p&gt;Удерживайте посетителей и клиентов на сайте с помощью набора инструментов для общения с ними. Принимайте обращения из всех каналов коммуникаций (онлайн-чаты, социальные сети и мессенджеры, email, формы на сайте), организовывайте рассылки и подписку на новости.&lt;/p&gt;
+&lt;p&gt;
+	Централизованно обрабатывайте их и контролируйте качество обслуживания. Собирайте обратную связь посетителей через отзывы и опросы, анализируйте и непрерывно улучшайте качество работы со своей аудиторией.&lt;/p&gt;
+&lt;div class="row"&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;					&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="row py-5 article-section article-section-gray"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			
+&lt;h2 class="article-title mt-0 mb-5"&gt;Маркетинг&lt;/h2&gt;						&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-4 px-0"&gt;
+&lt;img class="d-block w-100" src="https://enterprise.1c-bitrix.ru/upload/iblock/415/f91b4e1165380525450ef88edcdbf767.jpg"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-8"&gt;
+&lt;p&gt;Повышайте конверсию с помощью встроенных в «1С-Битрикс: Управление сайтом» инструментов: сегментируйте пользователей, находите к ним индивидуальный подход, возвращайте посетителей и клиентов, повышайте их активность и повторные продажи.&lt;/p&gt;
+&lt;p&gt;
+	Создавайте персонализированные email- и sms-рассылки, запускайте таргетированную рекламу по выбранным сегментам, настраивайте триггерные письма и A/B-тестирование. Анализируйте проведенные маркетинговые кампании и выбирайте наиболее эффективные инструменты.&lt;/p&gt;
+&lt;div class="row"&gt;
+&lt;/div&gt;
+				
+&lt;/div&gt;
+&lt;/div&gt;					&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class="row py-5 article-section article-section-white"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			
+&lt;h2 class="article-title mt-0 mb-5"&gt;Производительность и отказоустойчивость&lt;/h2&gt;						&lt;div class="row"&gt;
+	&lt;div class="col-12 col-lg-4 px-0"&gt;
+		&lt;img class="d-block w-100" src="https://enterprise.1c-bitrix.ru/upload/iblock/0e8/a553af80062c6305138e4c9c3478c073.png"&gt;
+		&lt;/div&gt;		
+&lt;div class="col-12 col-lg-8"&gt;
+&lt;p&gt;Сайт открывается за доли секунды и надежно работает 24/7 благодаря использованию кластера серверов и географически-распределенного кластера. Технологии: композитный сайт, многоуровневое кэширование и веб-кластер, который распределяет нагрузку на несколько серверов, – помогают проекту выдерживать пиковые нагрузки.&lt;/p&gt;
+&lt;div class="row"&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;					&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-gray"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			 
+&lt;h2 class="article-title mt-0 mb-1"&gt;Мобильные решения&lt;/h2&gt; 
+
+
+&lt;br&gt;	
+&lt;div class="article-description mt-0 mb-1"&gt;
+&lt;p&gt;
+	Откройте дополнительный канал продаж и общения с аудиторией, создав мобильные приложения с помощью технологии Bitrix.Mobile. Интегрируйте их со своим сайтом ,а специальный конструктор поможет вам упростить и удешевить создание и поддержку мобильных приложений. Они будут работать на iOS и Android и подойдут для всех типов устройств. Серверная часть включается в поставку «1С-Битрикс: Управление сайтом».
+&lt;/p&gt;
+
+&lt;/div&gt;				&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-white"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			 
+&lt;h2 class="article-title mt-0 mb-1"&gt;Безопасность&lt;/h2&gt; 
+
+
+&lt;br&gt;	
+&lt;div class="article-description mt-0 mb-1"&gt;
+&lt;p&gt;
+	Мы обеспечиваем высокий уровень защищенности доступа и сохранности конфиденциальной информации. Комплекс инструментов безопасности включает проактивный фильтр, веб-антивирус, технологии одноразовых паролей и защиты аутентификации, контроль целостности и подозрительной активности, защита от DDOS-атак.
+&lt;/p&gt;
+&lt;p&gt;
+	Продукт соответствует требованиям крупных организацией и имеет сертификацию ФСТЭК России для работы с персональными данными любого уровня.
+&lt;/p&gt;
+
+&lt;/div&gt;				&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class="row py-5 article-section article-section-red article-section-futures-slider"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			
+
+&lt;div class="mb-5"&gt;
+&lt;h2 class="article-title my-0"&gt;Все подробности и возможности 1С-Битрикс раскрыты в нашей презентации&lt;/h2&gt;&lt;br&gt;&lt;br&gt;
+&lt;div calass="article-description mt-3 mb-5"&gt;
+	&lt;a href="/partners/" class="bx-ui-btn bx-ui-btn_lg bx-ui-btn_primary"&gt;Получить презентацию&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;						 
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-white article-section-people-bg"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			
+			&lt;div class="row no-gutters"&gt;
+&lt;div class="col"&gt;
+&lt;h2 class="article-title mb-4"&gt;Преимущества Enterprise-редакции&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row no-gutters"&gt;
+&lt;div class="col"&gt;
+&lt;ul class="bx-ui-collapse-list"&gt;
+&lt;li class="bx-ui-collapse-list-item sb-bx-dropdown-initialized" data-bx-dropdown-item=""&gt;
+	&lt;div class="bx-ui-collapse-list-item-title" data-bx-dropdown-switch=""&gt;
+		&lt;div class="bx-ui-collapse-list-item-icon"&gt;
+			&lt;svg class="bx-ui-collapse-list-item-pictures" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"&gt;
+				&lt;line class="bx-ui-collapse-list-item-pictures-line-1" x1="8" x2="20" y1="14" y2="14" stroke-width="2"&gt;&lt;/line&gt;
+				&lt;line class="bx-ui-collapse-list-item-pictures-line-2" x1="14" x2="14" y1="8" y2="20" stroke-width="2"&gt;&lt;/line&gt;
+				&lt;path class="bx-ui-collapse-list-item-pictures-circle" d="M25.1881514,5.58242685 L23.5287197,6.83221394 C27.4803083,12.0981155 26.4325619,19.5379503 21.1775978,23.5270538 C18.6541201,25.4256767 15.4709953,26.2454669 12.3355855,25.8042487 C9.20017579,25.3630305 6.3722197,23.6973544 4.48015295,21.1773714 C0.519705199,15.9137234 1.56841362,8.46705762 6.83127486,4.48253152 C10.6368801,1.60698978 15.8119023,1.28523415 19.9494309,3.66691365 L20.9848829,1.86511142 C16.1268056,-0.934076481 10.0484363,-0.55636971 5.58019049,2.82235116 C-0.601367477,7.50155428 -1.83279279,16.247907 2.81967961,22.429226 C5.0411981,25.3886293 8.36195769,27.3447898 12.0438224,27.8628936 C15.7256871,28.3809974 19.4635634,27.4181124 22.4265988,25.1882679 C28.598887,20.5042587 29.829647,11.7663896 25.1881514,5.58242685 Z" transform="translate(-0.344)"&gt;&lt;/path&gt;
+			&lt;/svg&gt;
+		&lt;/div&gt;
+		&lt;div class="bx-ui-collapse-list-item-title-text"&gt;
+			&lt;div class="bx-ui-collapse-list-item-title-text-inner"&gt;Производительность и масштабирование&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="bx-ui-collapse-list-item-text" data-bx-dropdown-content=""&gt;
+		&lt;br&gt;Размещение проекта на кластере серверов обеспечивает производительность и отказоустойчивость 24/7. Модуль «Веб-кластер» распределяет нагрузку на неограниченное количество виртуальных или физических серверов. Также поддерживаются геораспределенные решения для отказоустойчивости на уровне дата-центра.&lt;br&gt;
+		Дополнительные преимущества: неограниченный объем CDN трафика и дискового пространства – для надежного хранения резервных копий проекта в облаке «1С-Битрикс».&lt;/div&gt;&lt;/li&gt;
+&lt;li class="bx-ui-collapse-list-item sb-bx-dropdown-initialized" data-bx-dropdown-item=""&gt;
+	&lt;div class="bx-ui-collapse-list-item-title" data-bx-dropdown-switch=""&gt;
+		&lt;div class="bx-ui-collapse-list-item-icon"&gt;
+			&lt;svg class="bx-ui-collapse-list-item-pictures" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"&gt;
+				&lt;line class="bx-ui-collapse-list-item-pictures-line-1" x1="8" x2="20" y1="14" y2="14" stroke-width="2"&gt;&lt;/line&gt;
+				&lt;line class="bx-ui-collapse-list-item-pictures-line-2" x1="14" x2="14" y1="8" y2="20" stroke-width="2"&gt;&lt;/line&gt;
+				&lt;path class="bx-ui-collapse-list-item-pictures-circle" d="M25.1881514,5.58242685 L23.5287197,6.83221394 C27.4803083,12.0981155 26.4325619,19.5379503 21.1775978,23.5270538 C18.6541201,25.4256767 15.4709953,26.2454669 12.3355855,25.8042487 C9.20017579,25.3630305 6.3722197,23.6973544 4.48015295,21.1773714 C0.519705199,15.9137234 1.56841362,8.46705762 6.83127486,4.48253152 C10.6368801,1.60698978 15.8119023,1.28523415 19.9494309,3.66691365 L20.9848829,1.86511142 C16.1268056,-0.934076481 10.0484363,-0.55636971 5.58019049,2.82235116 C-0.601367477,7.50155428 -1.83279279,16.247907 2.81967961,22.429226 C5.0411981,25.3886293 8.36195769,27.3447898 12.0438224,27.8628936 C15.7256871,28.3809974 19.4635634,27.4181124 22.4265988,25.1882679 C28.598887,20.5042587 29.829647,11.7663896 25.1881514,5.58242685 Z" transform="translate(-0.344)"&gt;&lt;/path&gt;
+			&lt;/svg&gt;
+		&lt;/div&gt;
+		&lt;div class="bx-ui-collapse-list-item-title-text"&gt;
+			&lt;div class="bx-ui-collapse-list-item-title-text-inner"&gt;Контроллер сайтов&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="bx-ui-collapse-list-item-text" data-bx-dropdown-content=""&gt;
+		Вы можете строить сети распределенных веб-проектов с единым центром и консолидировать управление множеством независимых друг от друга веб-проектов, построенных на отдельных копиях продукта «1С-Битрикс: Управление сайтом» вне зависимости от их физического расположения.&lt;/div&gt;
+&lt;/li&gt;
+&lt;li class="bx-ui-collapse-list-item sb-bx-dropdown-initialized" data-bx-dropdown-item=""&gt;
+	&lt;div class="bx-ui-collapse-list-item-title" data-bx-dropdown-switch=""&gt;
+		&lt;div class="bx-ui-collapse-list-item-icon"&gt;
+			&lt;svg class="bx-ui-collapse-list-item-pictures" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"&gt;
+				&lt;line class="bx-ui-collapse-list-item-pictures-line-1" x1="8" x2="20" y1="14" y2="14" stroke-width="2"&gt;&lt;/line&gt;
+				&lt;line class="bx-ui-collapse-list-item-pictures-line-2" x1="14" x2="14" y1="8" y2="20" stroke-width="2"&gt;&lt;/line&gt;
+				&lt;path class="bx-ui-collapse-list-item-pictures-circle" d="M25.1881514,5.58242685 L23.5287197,6.83221394 C27.4803083,12.0981155 26.4325619,19.5379503 21.1775978,23.5270538 C18.6541201,25.4256767 15.4709953,26.2454669 12.3355855,25.8042487 C9.20017579,25.3630305 6.3722197,23.6973544 4.48015295,21.1773714 C0.519705199,15.9137234 1.56841362,8.46705762 6.83127486,4.48253152 C10.6368801,1.60698978 15.8119023,1.28523415 19.9494309,3.66691365 L20.9848829,1.86511142 C16.1268056,-0.934076481 10.0484363,-0.55636971 5.58019049,2.82235116 C-0.601367477,7.50155428 -1.83279279,16.247907 2.81967961,22.429226 C5.0411981,25.3886293 8.36195769,27.3447898 12.0438224,27.8628936 C15.7256871,28.3809974 19.4635634,27.4181124 22.4265988,25.1882679 C28.598887,20.5042587 29.829647,11.7663896 25.1881514,5.58242685 Z" transform="translate(-0.344)"&gt;&lt;/path&gt;
+			&lt;/svg&gt;
+		&lt;/div&gt;
+		&lt;div class="bx-ui-collapse-list-item-title-text"&gt;
+			&lt;div class="bx-ui-collapse-list-item-title-text-inner"&gt;VIP-поддержка 1С-Битрикс&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="bx-ui-collapse-list-item-text" data-bx-dropdown-content=""&gt;&lt;br&gt;Владельцы лицензии Enterprise получают приоритетную техническую поддержку от «1С-Битрикс» в режиме 24/7 с минимальным временем реакции от 1 часа.
+	&lt;/div&gt;
+&lt;/li&gt;
+&lt;li class="bx-ui-collapse-list-item sb-bx-dropdown-initialized" data-bx-dropdown-item=""&gt;
+	&lt;div class="bx-ui-collapse-list-item-title" data-bx-dropdown-switch=""&gt;
+		&lt;div class="bx-ui-collapse-list-item-icon"&gt;
+			&lt;svg class="bx-ui-collapse-list-item-pictures" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"&gt;
+				&lt;line class="bx-ui-collapse-list-item-pictures-line-1" x1="8" x2="20" y1="14" y2="14" stroke-width="2"&gt;&lt;/line&gt;
+				&lt;line class="bx-ui-collapse-list-item-pictures-line-2" x1="14" x2="14" y1="8" y2="20" stroke-width="2"&gt;&lt;/line&gt;
+				&lt;path class="bx-ui-collapse-list-item-pictures-circle" d="M25.1881514,5.58242685 L23.5287197,6.83221394 C27.4803083,12.0981155 26.4325619,19.5379503 21.1775978,23.5270538 C18.6541201,25.4256767 15.4709953,26.2454669 12.3355855,25.8042487 C9.20017579,25.3630305 6.3722197,23.6973544 4.48015295,21.1773714 C0.519705199,15.9137234 1.56841362,8.46705762 6.83127486,4.48253152 C10.6368801,1.60698978 15.8119023,1.28523415 19.9494309,3.66691365 L20.9848829,1.86511142 C16.1268056,-0.934076481 10.0484363,-0.55636971 5.58019049,2.82235116 C-0.601367477,7.50155428 -1.83279279,16.247907 2.81967961,22.429226 C5.0411981,25.3886293 8.36195769,27.3447898 12.0438224,27.8628936 C15.7256871,28.3809974 19.4635634,27.4181124 22.4265988,25.1882679 C28.598887,20.5042587 29.829647,11.7663896 25.1881514,5.58242685 Z" transform="translate(-0.344)"&gt;&lt;/path&gt;
+			&lt;/svg&gt;
+		&lt;/div&gt;
+		&lt;div class="bx-ui-collapse-list-item-title-text"&gt;
+			&lt;div class="bx-ui-collapse-list-item-title-text-inner"&gt;Открытый исходный код&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="bx-ui-collapse-list-item-text" data-bx-dropdown-content=""&gt;&lt;br&gt;1С-Битрикс: Enterprise это коробочное решение. Доступность продукта в исходных кодах позволяет гибко настраивать систему, снимает ограничения на кастомизацию и доработки, а также дает множество вариантов интеграций с любыми сторонними продуктами.
+	&lt;/div&gt;
+&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+					&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-gray"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			 
+&lt;h2 class="article-title mt-0 mb-1"&gt;Платформа выдерживает высокие нагрузки&lt;/h2&gt; 
+
+
+&lt;br&gt;	
+&lt;div class="article-description mt-0 mb-1"&gt;
+&lt;p&gt;
+	Обеспечивает отказоустойчивость архитектуры, доступность, возможность кластеризации, репликации и масштабирования проекта.
+&lt;/p&gt;
+&lt;p&gt;
+	Мы провели полномасштабное нагрузочное тестирование ecommerce-решения на базе «1С-Битрикс: Enterprise», в котором продемонстрировали высокие суточные показатели производительности, и малого времени отклика, с применением веб-кластера из 4х серверов и технологии «Композитный сайт».
+&lt;/p&gt;
+&lt;br&gt;&lt;br&gt;&lt;div class="row bx-ui-number-container mb-5"&gt;
+	&lt;div class="bx-ui-number col-md-4 col-sm-6"&gt;
+		&lt;div class="bx-ui-number__inner"&gt;
+			&lt;div class="bx-ui-number__number bx-ui-number_red"&gt;
+				 10 МЛН.
+			&lt;/div&gt;
+			&lt;div class="bx-ui-number__description"&gt;
+				Пользоватaлей сайта в сутки
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="bx-ui-number col-md-4 col-sm-6"&gt;
+		&lt;div class="bx-ui-number__inner"&gt;
+			&lt;div class="bx-ui-number__number bx-ui-number_red"&gt;
+				 60+ МЛН.
+			&lt;/div&gt;
+			&lt;div class="bx-ui-number__description"&gt;
+				Обращений к сайту в сутки
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="bx-ui-number col-md-4 col-sm-6"&gt;
+		&lt;div class="bx-ui-number__inner"&gt;
+			&lt;div class="bx-ui-number__number bx-ui-number_red"&gt;
+				 0,4 СЕК.
+			&lt;/div&gt;
+			&lt;div class="bx-ui-number__description"&gt;
+				Максимальное время отклика сайта
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;a href="/partners/" class="bx-ui-btn bx-ui-btn_lg bx-ui-btn_primary"&gt;Посмотреть результаты нагрузочного тестирования&lt;/a&gt;
+&lt;/div&gt;				&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-white"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			 
+&lt;h2 class="article-title mt-0 mb-1"&gt;Enterprise решение необходимо если:&lt;/h2&gt; 
+
+
+&lt;br&gt;	
+&lt;ul class="mb-5 bx-ui-list bx-ui-list_dots"&gt;
+	&lt;li class="bx-ui-list__item"&gt;
+	&lt;div class="bx-ui-list__text"&gt;
+		Вы поддерживаете собственный крупный сайт или интернет-магазин с суточной посещаемостью от 50 000 посетителей
+	&lt;/div&gt;
+ &lt;/li&gt;
+	&lt;li class="bx-ui-list__item"&gt;
+	&lt;div class="bx-ui-list__text"&gt;
+		Необходима работа проекта 24/7 без простоев на периоды восстановления или обслуживания
+	&lt;/div&gt;
+ &lt;/li&gt;
+	&lt;li class="bx-ui-list__item"&gt;
+	&lt;div class="bx-ui-list__text"&gt;
+		Вашей компании требуется контроль над группой подчиненных веб-проектов ввиду сложности своей структуры
+	&lt;/div&gt;
+ &lt;/li&gt;
+&lt;/ul&gt;				&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-gray"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			 
+&lt;h2 class="article-title mt-0 mb-1"&gt;Лицензия в постоянное пользование&lt;/h2&gt; 
+
+
+&lt;br&gt;	
+&lt;div class="article-description mt-0 mb-1"&gt;
+&lt;p&gt;
+	Используйте 1С-Битрикс: Enterprise бессрочно и на постоянной основе без ограничений по серверам.
+&lt;/p&gt;
+
+&lt;/div&gt;				&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-red article-section-futures-slider"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			
+
+&lt;div class="mb-5"&gt;
+&lt;h2 class="article-title my-0"&gt;Эксперты 1С-Битрикс подберут подходящий вариант лицензирования и рассчитают стоимость для вашего проекта&lt;/h2&gt;&lt;br&gt;&lt;br&gt;
+&lt;div calass="article-description mt-3 mb-5"&gt;
+	&lt;a href="/partners/" class="bx-ui-btn bx-ui-btn_lg bx-ui-btn_primary"&gt;Узнать стоимость&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;						 
+	&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-gray"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			 
+&lt;h2 class="article-title mt-0 mb-1"&gt;Продукт используется в решениях&lt;/h2&gt; 
+
+
+&lt;br&gt;	
+&lt;div class="article-description mt-0 mb-1"&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="bx-ui-tile-container"&gt;
+
+			&lt;!--section-tile start--&gt;
+			&lt;div class="bx-ui-tile col-md-4"&gt;
+				&lt;div class="bx-ui-tile__inner"&gt;
+					&lt;a class="bx-ui-tile__main-link" href="list.php?in_qc=1404&amp;amp;city%5B%5D=&amp;amp;country%5B%5D=" onclick="javascript:_gaq.push(['_trackPageview','/any_competence_filter.php']); _gaq.push(['_trackPageview','/find_qmonitor_filter.php']);"&gt;&lt;/a&gt;
+					&lt;div class="bx-ui-tile__text-box"&gt;
+						&lt;div class="bx-ui-tile__row bx-ui-tile__title"&gt;E-Commerce B2C&lt;/div&gt;
+						&lt;div class="bx-ui-tile__row bx-ui-tile__desc"&gt;28,7% из 300 крупнейших российских интернет-магазинов, а всего более 30 000 интернет-магазинов работает на платформе электронной коммерции «1С-Битрикс»&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!--section-tile end--&gt;
+			&lt;!--section-tile start--&gt;
+			&lt;div class="bx-ui-tile col-md-4"&gt;
+				&lt;div class="bx-ui-tile__inner"&gt;
+					&lt;a class="bx-ui-tile__main-link" href="list.php?in_qc=1404&amp;amp;city%5B%5D=&amp;amp;country%5B%5D=" onclick="javascript:_gaq.push(['_trackPageview','/any_competence_filter.php']); _gaq.push(['_trackPageview','/find_qmonitor_filter.php']);"&gt;&lt;/a&gt;
+					&lt;div class="bx-ui-tile__text-box"&gt;
+						&lt;div class="bx-ui-tile__row bx-ui-tile__title"&gt;E-Commerce B2B&lt;/div&gt;
+						&lt;div class="bx-ui-tile__row bx-ui-tile__desc"&gt;«1С-Битрикс» поможет автоматизировать бизнес-процессы в онлайне, повысить качество сервиса и снизить нагрузку на менеджеров. &lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!--section-tile end--&gt;
+			&lt;!--section-tile start--&gt;
+			&lt;div class="bx-ui-tile col-md-4"&gt;
+				&lt;div class="bx-ui-tile__inner"&gt;
+					&lt;a class="bx-ui-tile__main-link" href="list.php?in_qc=1404&amp;amp;city%5B%5D=&amp;amp;country%5B%5D=" onclick="javascript:_gaq.push(['_trackPageview','/any_competence_filter.php']); _gaq.push(['_trackPageview','/find_qmonitor_filter.php']);"&gt;&lt;/a&gt;
+					&lt;div class="bx-ui-tile__text-box"&gt;
+						&lt;div class="bx-ui-tile__row bx-ui-tile__title"&gt;Корпоративный сайт&lt;/div&gt;
+						&lt;div class="bx-ui-tile__row bx-ui-tile__desc"&gt;Платформа для создания и управления корпоративными сайтами «1С-Битрикс» является лидером среди тиражных решений и занимает более 52% рынка. &lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!--section-tile end--&gt;
+
+			
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;				&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-gray"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			 
+&lt;h2 class="article-title mt-0 mb-1"&gt;Истории успеха&lt;/h2&gt; 
+
+
+&lt;br&gt;	
+&lt;div class="article-description mt-0 mb-1"&gt;
+
+	
+сюда вставить компоненту из https://www.1c-bitrix.ru/partners/27270.php
+
+
+
+
+&lt;!--section-tile end--&gt;&lt;/div&gt;				&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-white"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+
+			
+&lt;h2 class="article-title mt-0 mb-5"&gt;Отраслевые решения&lt;/h2&gt;						&lt;div class="tabs-wrapper js-section-tab" data-bx-tab-id="section"&gt;
+&lt;div class="tabs-header"&gt;
+&lt;div class="tabs-btn-list " data-bx-tab-section-list=""&gt;
+				&lt;div class="tab-btn-container tab-item-current" data-bx-tab-section-list-item=""&gt;
+		&lt;a href="#" class="tab-btn"&gt;Финансы&lt;/a&gt;
+	&lt;/div&gt;
+					&lt;div class="tab-btn-container" data-bx-tab-section-list-item=""&gt;
+		&lt;a href="#" class="tab-btn"&gt;Строительный бизнес&lt;/a&gt;
+	&lt;/div&gt;
+					&lt;div class="tab-btn-container" data-bx-tab-section-list-item=""&gt;
+		&lt;a href="#" class="tab-btn"&gt;Автобизнес&lt;/a&gt;
+	&lt;/div&gt;
+					&lt;div class="tab-btn-container" data-bx-tab-section-list-item=""&gt;
+		&lt;a href="#" class="tab-btn"&gt;Страхование&lt;/a&gt;
+	&lt;/div&gt;
+					&lt;div class="tab-btn-container" data-bx-tab-section-list-item=""&gt;
+		&lt;a href="#" class="tab-btn"&gt;Государственные проекты&lt;/a&gt;
+	&lt;/div&gt;
+					&lt;div class="tab-btn-container" data-bx-tab-section-list-item=""&gt;
+		&lt;a href="#" class="tab-btn"&gt;Мебельная отрасль&lt;/a&gt;
+	&lt;/div&gt;
+					&lt;div class="tab-btn-container" data-bx-tab-section-list-item=""&gt;
+		&lt;a href="#" class="tab-btn"&gt;Одежда и fashion&lt;/a&gt;
+	&lt;/div&gt;
+					&lt;div class="tab-btn-container" data-bx-tab-section-list-item=""&gt;
+		&lt;a href="#" class="tab-btn"&gt;Сельское хозяйство&lt;/a&gt;
+	&lt;/div&gt;
+					&lt;div class="tab-btn-container" data-bx-tab-section-list-item=""&gt;
+		&lt;a href="#" class="tab-btn"&gt;Медицина&lt;/a&gt;
+	&lt;/div&gt;
+					&lt;div class="tab-btn-container" data-bx-tab-section-list-item=""&gt;
+		&lt;a href="#" class="tab-btn"&gt;Производственные компании&lt;/a&gt;
+	&lt;/div&gt;
+					&lt;div class="tab-btn-container" data-bx-tab-section-list-item=""&gt;
+		&lt;a href="#" class="tab-btn"&gt;Ритейл&lt;/a&gt;
+	&lt;/div&gt;
+					
+			&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="tabs-body"&gt;
+&lt;div class="tabs-body-list" data-bx-tab-content-list=""&gt;
+				&lt;div class="tab-body-page tab-body-page-opened" data-bx-tab-content-list-item=""&gt;
+		
+
+
+&lt;br&gt;
+&lt;div class="row"&gt;
+	&lt;div class="col-12 px-0"&gt;
+	&lt;div class="article-description mt-3 mb-5"&gt;
+		&lt;h5 class="article-title mt-0 mb-5"&gt;Финансы&lt;/h5&gt;
+		&lt;p&gt;Наши решения для банков и финансовых организаций помогут повысить эффективность работы и улучшить качество обслуживания клиентов&lt;/p&gt;
+	&lt;/div&gt;&lt;/div&gt;
+  
+&lt;/div&gt;				&lt;/div&gt;
+					&lt;div class="tab-body-page" data-bx-tab-content-list-item=""&gt;
+		
+
+
+&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-6 px-0"&gt;
+&lt;img class="d-block w-100" src="/images/content_ru/eshop/lc.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-6"&gt;
+&lt;h4 class="article-title mt-0 mb-5"&gt;Личный кабинет&lt;/h4&gt;
+&lt;p&gt;В своем персональном разделе покупатель отслеживает все свои заказы и полностью управляет своим внутренним счетом. В своем кабинете клиент изменяет личную информацию и подписку на новости магазина.
+
+&lt;/p&gt;
+&lt;p&gt;Для доступа в персональный раздел достаточно авторизоваться на сайте интернет-магазина.
+&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;				&lt;/div&gt;
+					&lt;div class="tab-body-page" data-bx-tab-content-list-item=""&gt;
+		
+
+
+
+&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-6 px-0"&gt;
+&lt;img class="d-block w-100" src="/images/content_ru/eshop/zakaz.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-6"&gt;
+&lt;h4 class="article-title mt-0 mb-5"&gt;Оформление заказа&lt;/h4&gt;
+&lt;p&gt;Вашим клиентам не придется заполнять избыточную информацию при оформлении заказа. В зависимости от выбранного способа доставки и региона, с которым работает ваш магазин, система запрашивает только необходимые в данный момент данные. В любой момент вы можете распечатать для клиента документы по заказу.
+&lt;/p&gt;
+&lt;p&gt;Заказы создают покупатели, выбирая товары и добавляя их в корзину. Но менеджер вашего магазина может добавлять новые и править существующие заказы прямо из административной части. 
+&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;				&lt;/div&gt;
+					&lt;div class="tab-body-page" data-bx-tab-content-list-item=""&gt;
+		
+
+
+
+
+
+&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-6 px-0"&gt;
+&lt;img class="d-block w-100" src="/images/content_ru/eshop/dostavka.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-6"&gt;
+&lt;h4 class="article-title mt-0 mb-5"&gt;Управление службами доставки&lt;/h4&gt;
+&lt;p&gt;У ваших покупателей много вариантов выбора доставки. При заказе товара они могут воспользоваться самыми современными и быстрыми почтовыми сервисами - такими, как доставка первым классом или через Почтоматы по всей России.&lt;/p&gt;
+&lt;p&gt;Расширенная географическая область. Расчет доставок выполняется не только для обширной географической области России, но и для территорий Украины и Казахстана, городов США и других стран мира.&lt;/p&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;				&lt;/div&gt;
+					&lt;div class="tab-body-page" data-bx-tab-content-list-item=""&gt;
+		
+
+
+
+
+
+
+&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-6 px-0"&gt;
+&lt;img class="d-block w-100" src="/images/content_ru/eshop/uprzakaz.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-6"&gt;
+&lt;h4 class="article-title mt-0 mb-5"&gt;Управление заказами&lt;/h4&gt;
+&lt;p&gt;Гибкое управление заказами облегчает работу мененджера интернет-магазина, экономит его время при взаимодействии с клиентами, улучшает это взаимодействие, оставляя клиентов довольными. Технология разделения заказа позволяет «разорвать» большой заказ на части, частично отгрузить заказ без его разделения, исключить позиции из заказа или дополнить его новыми.
+&lt;/p&gt;
+&lt;p&gt;Вы можете когда угодно деактивировать любую скидку внутри заказа и применить новую. Вы можете пересчитать заказ в любое время, и сами решить, какую его часть пересчитывать. Разработчикам предоставлена возможность «безболезненно» кастомизировать страницу заказа, не затрагивая ядро системы.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;				&lt;/div&gt;
+					&lt;div class="tab-body-page" data-bx-tab-content-list-item=""&gt;
+		
+
+
+&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-6 px-0"&gt;
+&lt;img class="d-block w-100" src="/images/content_ru/eshop/oplata.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-6"&gt;
+&lt;h4 class="article-title mt-0 mb-5"&gt;Управление оплатой&lt;/h4&gt;
+&lt;p&gt;Ограничения по оплатам: по службе заказа, по направлению, по цене, по сумме, по конкретному товару, по весу, по максимальному размеру, по типу плательщика, по платежной системе, по публичной части.
+&lt;/p&gt;
+&lt;p&gt;Предложение опций оплаты (например, нужна сдача, нужен кассовый аппарат и пр.)
+&lt;/p&gt;
+&lt;p&gt;Настройка платежной системы в один шаг
+
+&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;				&lt;/div&gt;
+					&lt;div class="tab-body-page" data-bx-tab-content-list-item=""&gt;
+		
+
+
+
+
+&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-6 px-0"&gt;
+&lt;img class="d-block w-100" src="/images/content_ru/eshop/print.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-6"&gt;
+&lt;h4 class="article-title mt-0 mb-5"&gt;Печать документов
+&lt;/h4&gt;
+&lt;p&gt;Все документы по заказу (счет-фактура, накладная и т.д.) можно распечатать в любой момент. Сделать это можно, просматривая сам заказ или прямо из списка заказов в «админке».
+&lt;/p&gt;
+&lt;p&gt;Просто нажмите на кнопку «Печать», - и выбранный вами документ откроется в новом окне для печати.
+&lt;/p&gt;
+&lt;p&gt;С помощью формы вы можете печатать документы по предустановленным и собственным шаблонам.&lt;/p&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;				&lt;/div&gt;
+					&lt;div class="tab-body-page" data-bx-tab-content-list-item=""&gt;
+		
+
+
+
+
+
+&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-6 px-0"&gt;
+&lt;img class="d-block w-100" src="/images/content_ru/eshop/forms.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-6"&gt;
+&lt;h4 class="article-title mt-0 mb-5"&gt;Адаптивные формы&lt;/h4&gt;
+&lt;p&gt;Владелец магазина сам решает, какая информация ему нужна от клиента. Система подстраивается под эту схему - клиенту при заполнении форм предлагаются только нужные в данный момент поля.
+
+
+&lt;/p&gt;
+&lt;p&gt;Вы можете уйти от обязательной регистрации, к примеру, по e-mail. Просто сделайте это поле необязательным, а поле «телефон», наоборот, обязательным. Взаимодействуйте с клиентами по телефону - отправляйте им СМС, push-уведомления и т.д.&lt;/p&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;				&lt;/div&gt;
+					&lt;div class="tab-body-page" data-bx-tab-content-list-item=""&gt;
+		
+
+
+
+
+&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-6 px-0"&gt;
+&lt;img class="d-block w-100" src="/images/content_ru/eshop/sales.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-6"&gt;
+&lt;h4 class="article-title mt-0 mb-5"&gt;Гибкая работа со скидками
+&lt;/h4&gt;
+&lt;p&gt;В карточке управления заказами можно увидеть полную информацию о скидках! В отдельном блоке выводятся все скидки, которые применились к заказу. &lt;/p&gt;&lt;p&gt;Менеджер видит, что это за скидка: откуда она появилась, как применилась, как называется, какой процент или сумму содержит. Может перейти на страницу этой скидки и посмотреть ее подробности.
+&lt;/p&gt;
+
+
+
+&lt;/div&gt;
+&lt;/div&gt;				&lt;/div&gt;
+					&lt;div class="tab-body-page" data-bx-tab-content-list-item=""&gt;
+		
+
+
+
+&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-6 px-0"&gt;
+&lt;img class="d-block w-100" src="/images/content_ru/eshop/izmeren.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-6"&gt;
+&lt;h4 class="article-title mt-0 mb-5"&gt;Единицы измерения&lt;/h4&gt;
+&lt;p&gt;Создавайте любые интернет-магазины: продуктов питания, лекарственных средств, стройматериалов и т.д. Продавайте в них любые товары - в любых единицах измерения.
+&lt;/p&gt;
+&lt;p&gt;Для каждого своего интернет-магазина вы можете задать индивидуальные настройки единиц измерения. Это возможно благодаря концепции единиц измерения, внедренной во все компоненты интернет-магазина и торгового каталога.&lt;/p&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;				&lt;/div&gt;
+					&lt;div class="tab-body-page" data-bx-tab-content-list-item=""&gt;
+		
+
+
+
+&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-6 px-0"&gt;
+&lt;img class="d-block w-100" src="/images/content_ru/eshop/stat.png"&gt;
+&lt;/div&gt;
+&lt;div class="col-12 col-lg-6"&gt;
+&lt;h4 class="article-title mt-0 mb-5"&gt;Статистика и отчеты&lt;/h4&gt;
+&lt;p&gt;Для получения статистики по заказам и товарам служат отчеты и графики. Необходимые поля для отчетов можно легко настроить. Сами отчеты можно выгрузить в таблицу MS Excel для дальнейшего использования.
+
+&lt;/p&gt;
+&lt;p&gt;Вам доступны: отчет по заказам, отчет по продуктам, графики динамики заказов, графики по деньгам.&lt;/p&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;				&lt;/div&gt;
+					&lt;div class="tab-body-page" data-bx-tab-content-list-item=""&gt;
+		
+
+
+
+
+
+
+
+
+
+&lt;div class="row"&gt;
+&lt;div class="col-12 col-lg-12"&gt;&lt;h4 class="article-title mt-0 mb-5"&gt;Мобильные приложение&lt;/h4&gt;&lt;/div&gt;
+&lt;div class="col-12 col-lg-4"&gt;
+
+&lt;p&gt;&lt;b&gt;«1C-Битрикс: Демонстрационный магазин»&lt;/b&gt;&lt;br&gt;
+Демонстрационное мобильное приложение для интернет-магазина.&lt;br&gt;
+&lt;a href="https://play.google.com/store/apps/details?id=com.bitrix.android"&gt;Google Play&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://itunes.apple.com/us/app/bitrixeshop/id623849662?l=ru&amp;amp;ls=1&amp;amp;mt=8"&gt;AppStore&lt;/a&gt;
+&lt;/p&gt;&lt;/div&gt;&lt;div class="col-12 col-lg-4"&gt;
+&lt;p&gt;&lt;b&gt;«1С-Битрикс: Администрирование»»&lt;/b&gt;&lt;br&gt;
+Приложение для администраторов и менеджеров интернет-магазина.&lt;br&gt;
+&lt;a href="https://play.google.com/store/apps/details?id=com.bitrix.admin"&gt;Google Play&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://itunes.apple.com/us/app/bitrixadmin/id621524973?l=ru&amp;amp;ls=1&amp;amp;mt=8"&gt;AppStore&lt;/a&gt;
+&lt;/p&gt;&lt;/div&gt;&lt;div class="col-12 col-lg-4"&gt;
+&lt;p&gt;&lt;b&gt;«1С-Битрикс: Разработка приложения»&lt;/b&gt;&lt;br&gt;
+Приложение для разработки собственных мобильных приложений.&lt;br&gt;
+&lt;a href="https://play.google.com/store/apps/details?id=com.bitrix.market.developers&amp;amp;feature=more_from_developer"&gt;Google Play&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://itunes.apple.com/us/app/bitrixmobile/id623842918?l=ru&amp;amp;ls=1&amp;amp;mt=8"&gt;AppStore&lt;/a&gt;
+&lt;/p&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;				&lt;/div&gt;
+			&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;					&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-gray"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			 
+&lt;h2 class="article-title mt-0 mb-1"&gt;Как проходит внедрение&lt;/h2&gt; 
+
+
+&lt;br&gt;	
+&lt;ul class="mb-5 bx-ui-list bx-ui-list_dots"&gt;
+	&lt;li class="bx-ui-list__item"&gt;
+	&lt;div class="bx-ui-list__text"&gt;
+		&lt;p&gt;&lt;b&gt;Консультация и обсуждение проекта&lt;/b&gt;&lt;/p&gt;
+		&lt;p&gt;Оставьте заявку, и наши эксперты свяжутся с вами и помогут найти оптимальное решение&lt;/p&gt;
+		&lt;a href="/partners/" class="bx-ui-btn bx-ui-btn_lg bx-ui-btn_primary"&gt;Получить консультацию&lt;/a&gt;&lt;br&gt;
+	&lt;/div&gt;
+ &lt;/li&gt;
+ &lt;li class="bx-ui-list__item"&gt;
+	&lt;div class="bx-ui-list__text"&gt;
+		&lt;p&gt;&lt;b&gt;Выбор подрядчика&lt;/b&gt;&lt;/p&gt;
+		&lt;p&gt;Мы поможем выбрать лучшего интегратора с нужными компетенциями и опытом решения аналогичных задач&lt;/p&gt;
+	&lt;/div&gt;
+ &lt;/li&gt;
+ &lt;li class="bx-ui-list__item"&gt;
+	&lt;div class="bx-ui-list__text"&gt;
+		&lt;p&gt;&lt;b&gt;Разработка проекта&lt;/b&gt;&lt;/p&gt;
+		&lt;p&gt;Опытный интегратор спроектирует и реализует ваш проект&lt;/p&gt;
+	&lt;/div&gt;
+ &lt;/li&gt;
+ &lt;li class="bx-ui-list__item"&gt;
+	&lt;div class="bx-ui-list__text"&gt;
+		&lt;p&gt;&lt;b&gt;Контроль вендора на каждом этапе разработки&lt;/b&gt;&lt;/p&gt;
+		&lt;p&gt;Эксперты 1С-Битрикс проконтролируют качество реализации проекта на каждом этапе и готовность к запуску проекта в эксплуатацию&lt;/p&gt;
+	&lt;/div&gt;
+ &lt;/li&gt;
+ &lt;li class="bx-ui-list__item"&gt;
+	&lt;div class="bx-ui-list__text"&gt;
+		&lt;p&gt;&lt;b&gt;Запуск проекта в эксплуатацию&lt;/b&gt;&lt;/p&gt;
+		&lt;p&gt;Запуск проекта в эксплуатацию&lt;/p&gt;
+	&lt;/div&gt;
+ &lt;/li&gt;
+	
+&lt;/ul&gt;				&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-white"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			 
+&lt;h2 class="article-title mt-0 mb-1"&gt;Интеграторы с опытом крупных внедрений продукта «1С-Битрикс: Enterprise»&lt;/h2&gt;
+
+
+&lt;div class="logo-line"&gt;
+	&lt;div class="logo-line__inner"&gt;
+
+		&lt;div class="logo-line__item"&gt;
+			&lt;div class="logo-line__media"&gt;
+				&lt;img class="logo-line__media-picture" src="/images/content_ru/logo/MTS_200.png"&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class="logo-line__item"&gt;
+			&lt;div class="logo-line__media"&gt;
+				&lt;img class="logo-line__media-picture" src="/images/content_ru/logo/euroset_200.png"&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class="logo-line__item"&gt;
+			&lt;div class="logo-line__media"&gt;
+				&lt;img class="logo-line__media-picture" src="/images/content_ru/logo/restore_200.png"&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class="logo-line__item"&gt;
+			&lt;div class="logo-line__media"&gt;
+				&lt;img class="logo-line__media-picture" src="/images/content_ru/logo/dit_200.png"&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class="logo-line__item"&gt;
+			&lt;div class="logo-line__media"&gt;
+				&lt;img class="logo-line__media-picture" src="/images/content_ru/logo/Hoff.png"&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;a href="/partners/" class="bx-ui-btn bx-ui-btn_lg bx-ui-btn_primary"&gt;Все интеграторы&lt;/a&gt;&lt;br&gt; 
+
+&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+&lt;div class="row py-5 article-section article-section-gray"&gt;
+	&lt;div class="col article-block-container"&gt;
+		&lt;div class="article-block"&gt;
+			 
+&lt;h2 class="article-title mt-0 mb-1"&gt;Предоставляем услуги по контролю качества от 1С-Битрикс&lt;/h2&gt; 
+&lt;div class="article-description mt-3 mb-5"&gt;&lt;p&gt;Получите рекомендации по ускорению работы интернет-проекта и решению проблем низкой производительности&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;br&gt;	
+&lt;div class="article-description mt-0 mb-1"&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="bx-ui-tile-container"&gt;
+
+			&lt;!--section-tile start--&gt;
+			&lt;div class="bx-ui-tile col-md-4"&gt;
+				&lt;div class="bx-ui-tile__inner"&gt;
+					&lt;a class="bx-ui-tile__main-link" href="list.php?in_qc=1404&amp;amp;city%5B%5D=&amp;amp;country%5B%5D=" onclick="javascript:_gaq.push(['_trackPageview','/any_competence_filter.php']); _gaq.push(['_trackPageview','/find_qmonitor_filter.php']);"&gt;&lt;/a&gt;
+					&lt;div class="bx-ui-tile__text-box"&gt;
+						&lt;div class="bx-ui-tile__row bx-ui-tile__title"&gt;Аудит серверной архитектуры&lt;/div&gt;
+						
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!--section-tile end--&gt;
+			&lt;!--section-tile start--&gt;
+			&lt;div class="bx-ui-tile col-md-4"&gt;
+				&lt;div class="bx-ui-tile__inner"&gt;
+					&lt;a class="bx-ui-tile__main-link" href="list.php?in_qc=1404&amp;amp;city%5B%5D=&amp;amp;country%5B%5D=" onclick="javascript:_gaq.push(['_trackPageview','/any_competence_filter.php']); _gaq.push(['_trackPageview','/find_qmonitor_filter.php']);"&gt;&lt;/a&gt;
+					&lt;div class="bx-ui-tile__text-box"&gt;
+						&lt;div class="bx-ui-tile__row bx-ui-tile__title"&gt;Аудит производителя&lt;/div&gt;
+						
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!--section-tile end--&gt;
+			&lt;!--section-tile start--&gt;
+			&lt;div class="bx-ui-tile col-md-4"&gt;
+				&lt;div class="bx-ui-tile__inner"&gt;
+					&lt;a class="bx-ui-tile__main-link" href="list.php?in_qc=1404&amp;amp;city%5B%5D=&amp;amp;country%5B%5D=" onclick="javascript:_gaq.push(['_trackPageview','/any_competence_filter.php']); _gaq.push(['_trackPageview','/find_qmonitor_filter.php']);"&gt;&lt;/a&gt;
+					&lt;div class="bx-ui-tile__text-box"&gt;
+						&lt;div class="bx-ui-tile__row bx-ui-tile__title"&gt;Контроль нагрузочного тестирования&lt;/div&gt;
+						
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!--section-tile end--&gt;
+
+			
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;				&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+Копировать]]></description><link>bitrix24\для-обмена-кодом.html</link><guid isPermaLink="false">Bitrix24/Для обмена кодом.md</guid><pubDate>Sat, 07 Sep 2024 08:28:55 GMT</pubDate></item></channel></rss>
